@@ -17,13 +17,15 @@ const Services = () => {
         delivery processes and expand your <br /> supply chain globally with the DFA Membership Ship Now and <br/>Pay Later program. 
         </div>
         <div>
-          <button className='btn1 hover:bg-orange-400 text-1xl font-bold text-white bg-orange-500 p-3 px-5 rounded'>Request a demo</button>
+          <button className='btn1 border-2 border-gray-400 hover:bg-orange-400 text-1xl font-bold text-white bg-orange-500 p-3 px-5 rounded-md'>Request a demo</button>
         </div>
-
         <div className="content">
 
+          <div>
+            <h1 className='font-bold text-4xl'>How it works</h1>
+          </div>
+
         </div>
-       
     </div>
     
     
