@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../assets/ship2.jpg"
+import img from "../assets/ship.jpg"
 import "../Components/css/service.css"
 
 const Services = () => {
@@ -12,9 +12,16 @@ const Services = () => {
       <div className="header_title text-6xl font-bold">
         <p>Ship <span className=' hover:animate-pulse text-orange-500'>Now</span> & Pay <span className='hover:animate-pulse text-orange-500'>Later</span></p>
       </div>
-      <div className='Description text-white sm:absolute'>
-        Access a simple financial solution for your Train,Truck,Ship and Air freight shipping. <br /> Facilitate 
-        delivery processes and expand your supply chain globally with the DFA<br /> Membership Ship Now, Pay Later program. 
+      <div className='Description text-gray-800 font-bold text-xl'>
+        Access a simple financial solution for your Train,Truck,Ship and <br /> Air freight shipping.  Facilitate 
+        delivery processes and expand your <br /> supply chain globally with the DFA Membership Ship Now and <br/>Pay Later program. 
+        </div>
+        <div>
+          <button className='btn1 hover:bg-orange-400 text-1xl font-bold text-white bg-orange-500 p-3 px-5 rounded'>Request a demo</button>
+        </div>
+
+        <div className="content">
+
         </div>
        
     </div>
