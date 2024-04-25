@@ -11,7 +11,7 @@ const Nav = () => {
       <div>
         <nav>
           <div className="flex  bg-orange-500 py-2 gap-2 md:gap-10 ">
-            <div className="ml-2">
+            <div className="flex flex-wrap ml-2">
               <div className="flex ml-2 mb-2 md:mb-0 md:mx-10">
                 <HiOutlineMailOpen className="mt-1 text-lg" />
                 <h1 className="ml-1">info@seaindia.com</h1>
