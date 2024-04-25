@@ -74,7 +74,7 @@ const Nav = () => {
           </div>
 
           {mobileDrawerOpen && (
-            <div className="fixed right-0 z-20 bg-white  w-full  p-12 flex flex-col justify-center items-center  lg:hidden">
+            <div className="fixed right-0 z-20 text-lg text-white backdrop-blur-lg w-full  p-12 flex flex-col justify-center items-center  lg:hidden">
               <ul onClick={closeNavbar}>
                 <li>
                   <Link to="/home">Home</Link>
