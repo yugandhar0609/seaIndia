@@ -8,3 +8,16 @@ font-weight: bold;
 font-size: 3rem;
 animation: slideUp 2s ease forwards;
 } */
+.header_title{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+
+.Description{
+    position: absolute;
+    top:42%;
+    left:10%;
+
+}

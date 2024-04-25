@@ -7,12 +7,16 @@ const Services = () => {
     <>
     <div>
       <div className="relative opacity-90">
-        <img className='h-[80vh] w-[100%] object-cover' src={img} alt="ship"/>
+        <img className='h-[90vh] w-[100%] object-cover' src={img} alt="ship"/>
       </div>
-      <div className="overlay-text">
-        <h2>You Fill the <span className='text-blue-800'>Container</span> ,
-        We Fill In the <span className="text-red-800">Rest</span>.</h2>
+      <div className="header_title text-6xl font-bold">
+        <p>Ship <span className=' hover:animate-pulse text-orange-500'>Now</span> & Pay <span className='hover:animate-pulse text-orange-500'>Later</span></p>
       </div>
+      <div className='Description text-white sm:absolute'>
+        Access a simple financial solution for your Train,Truck,Ship and Air freight shipping. <br /> Facilitate 
+        delivery processes and expand your supply chain globally with the DFA<br /> Membership Ship Now, Pay Later program. 
+        </div>
+       
     </div>
     
     

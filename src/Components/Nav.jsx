@@ -49,20 +49,20 @@ const Nav = () => {
               className=" hidden md:flex ml-2  md:ml-auto md:gap-10 mr-4 md:mr-16 text-black font-semibold mt-2 md:mt-0 text-lg"
               OnClick={closeNavbar}
             >
-              <li>
+              <li className="hover:text-orange-500">
                 <Link to="/home">Home</Link>
               </li>
-              <li>
+              <li className="hover:text-orange-500">
                 <Link to="/aboutus">About Us</Link>
               </li>
-              <li>
+              <li className="hover:text-orange-500">
                 <Link to="/services">Services</Link>
                 
               </li>
-              <li>
+              <li className="hover:text-orange-500">
                 <Link to="/team">The Team</Link>
               </li>
-              <li>
+              <li className="hover:text-orange-500">
                 <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
