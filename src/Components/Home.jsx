@@ -4,11 +4,11 @@ const Home = () => {
   return (
     <>
      
-      <div className="relative">
+      <div className="relative object-cover">
         <img
           src={img1}
           alt="background"
-          style={{ width: "100%", height: "663px" }}
+          style={{ width: "100%", height: "668px" }}
         />
         <div className="overlay-text">
           <p>SEAINDIA FREIGHT SYSTEM PRIVATE LIMITED</p>
