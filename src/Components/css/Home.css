@@ -1,0 +1,27 @@
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    animation: slideUp 2s ease forwards;
+}
+
+.sub-text {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
