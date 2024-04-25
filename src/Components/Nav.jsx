@@ -16,7 +16,6 @@ const Nav = () => {
                 <HiOutlineMailOpen className="mt-1 text-lg" />
                 <h1 className="ml-1">info@seaindia.com</h1>
               </div>
-
               <div className="flex mb-2 ml-2 md:mb-0">
                 <MdPhone className="mt-1 text-lg" />
                 <h1 className="">+91 7342890780</h1>
@@ -41,16 +40,16 @@ const Nav = () => {
                 <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="#">About Us</Link>
+                <Link to="/aboutus">About Us</Link>
               </li>
               <li>
-                <Link to="#">Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to="#">The Team</Link>
+                <Link to="/team">The Team</Link>
               </li>
               <li>
-                <Link to="#">Contact Us</Link>
+                <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>
