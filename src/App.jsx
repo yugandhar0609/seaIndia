@@ -2,6 +2,9 @@ import Nav from "../src/Components/Nav";
 import Home from "../src/Components/Home";
 import { Routes, Route } from "react-router-dom";
 import Services from "./Components/Services";
+import About from "./Components/About";
+import Team from "./Components/Team";
+import Contact from "./Components/contact";
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
         <Route path="/aboutus" element={<About/>}/>
         <Route path="/services" element={<Services/>}/>
         <Route path="/team" element={<Team/>}/>
-        <Route path="/contactus" element={<Contact/>}/> 
+        <Route path="/contact" element={<Contact/>}/> 
       </Routes>
     </>
   );
