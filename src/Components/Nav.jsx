@@ -79,16 +79,16 @@ const Nav = () => {
                 <li text-black hover:text-orange-500>
                   <Link to="/home">Home</Link>
                 </li>
-                <li text-black hover:text-orange-500>
+                <li hover:text-orange-500>
                   <Link to="/aboutus">About Us</Link>
                 </li>
-                <li text-black hover:text-orange-500>
+                <li hover:text-orange-500>
                   <Link to="/services">Services</Link>
                 </li>
-                <li text-black hover:text-orange-500>
+                <li hover:text-orange-500>
                   <Link to="/team">The Team</Link>
                 </li>
-                <li text-black hover:text-orange-500>
+                <li hover:text-orange-500>
                   <Link to="/contact">Contact Us</Link>
                 </li>
               </ul>
