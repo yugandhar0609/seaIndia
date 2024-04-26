@@ -5,7 +5,7 @@ const Home = () => {
     <>
      
       <div className="relative object-cover">
-        <img
+        <img className="object-cover"
           src={img1}
           alt="background"
           style={{ width: "100%", height: "668px" }}
