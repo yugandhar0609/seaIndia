@@ -1,4 +1,4 @@
-  .overlay-text {
+.overlay-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -44,15 +44,25 @@
     font-size: 0.75rem;
     margin-top: 5px;
   }
+
+  .responsive-image { 
+    height: auto;
+    max-width: 100%;
+  }
 }
+
 @media (max-width: 480px) {
-    .overlay-text {
-      font-size: 1.5rem;
-    }
-    
-    .sub-text {
-      font-size: 0.75rem;
-      margin-top: 5px;
-    }
-    
-  } 
+  .overlay-text {
+    font-size: 1.5rem;
+  }
+
+  .sub-text {
+    font-size: 0.75rem;
+    margin-top: 5px;
+  }
+
+  .responsive-image { 
+    height: 450px;
+    max-width: 100%;
+  }
+}

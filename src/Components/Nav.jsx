@@ -39,7 +39,7 @@ const Nav = () => {
           </div>
           <div className="flex items-center justify-between">
             <img
-              className="md:ml-9 mb-4 md:mb-0"
+              className=" ml-2 md:ml-9 mb-4 md:mb-0"
               src={img}
               alt="logo"
               style={{ width: "130px", height: "65px" }}
@@ -66,7 +66,7 @@ const Nav = () => {
                 <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
-            <div className="lg:hidden md:flex flex-col justify-end">
+            <div className=" mr-2 lg:hidden md:flex flex-col justify-end ">
               <button onClick={toggleNavbar}>
                 {mobileDrawerOpen ? <X /> : <Menu />}
               </button>
