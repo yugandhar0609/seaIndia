@@ -39,7 +39,7 @@ const Nav = () => {
           </div>
           <div className="flex items-center justify-between">
             <img
-              className="md:ml-9 mb-4 md:mb-0"
+              className=" ml-2 md:ml-9 mb-4 md:mb-0"
               src={img}
               alt="logo"
               style={{ width: "130px", height: "65px" }}
@@ -66,7 +66,7 @@ const Nav = () => {
                 <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
-            <div className="lg:hidden md:flex flex-col justify-end">
+            <div className=" mr-2 lg:hidden md:flex flex-col justify-end ">
               <button onClick={toggleNavbar}>
                 {mobileDrawerOpen ? <X /> : <Menu />}
               </button>
@@ -74,21 +74,21 @@ const Nav = () => {
           </div>
 
           {mobileDrawerOpen && (
-            <div className=" fixed right-0 z-20 text-lg text-black backdrop-blur-lg w-full  p-12 flex flex-col justify-center items-center  lg:hidden">
+            <div className=" hover:text-orange-500 fixed right-0 z-20 text-lg text-black backdrop-blur-lg w-full  p-12 flex flex-col justify-center items-center  lg:hidden">
               <ul onClick={closeNavbar}>
-                <li text-black hover:text-orange-500>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/home">Home</Link>
                 </li>
-                <li hover:text-orange-500>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/aboutus">About Us</Link>
                 </li>
-                <li hover:text-orange-500>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/services">Services</Link>
                 </li>
-                <li hover:text-orange-500>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/team">The Team</Link>
                 </li>
-                <li hover:text-orange-500>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/contact">Contact Us</Link>
                 </li>
               </ul>
