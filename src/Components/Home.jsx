@@ -5,15 +5,17 @@ const Home = () => {
   return (
     <>
       <div className="relative object-cover">
-        <img className="object-cover"
+        <img
           src={img1}
           alt="background"
-          className="responsive-image w-full h-[668px] object-cover" 
-          // style={{width:"100%",height:"668px"}}
+          className=" w-full h-[450px] md:h-[668px]"
         />
-        <div className="overlay-text mobile"> {/* Added "mobile" class for mobile devices */}
+        <div className=" absolute overlay-text mobile">
           <p>SEAINDIA FREIGHT SYSTEM PRIVATE LIMITED</p>
-          <p className="sub-text mobile">Shipping, Clearing and Forwarding Agents</p>
+          <p className="sub-text mobile">
+            Shipping, Clearing and Forwarding Agents
+          </p>
+  
         </div>
       </div>
     </>
