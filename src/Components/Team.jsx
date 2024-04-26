@@ -1,4 +1,8 @@
 import React from 'react'
+import logo from '../assets/client-1.png'
+import logo1 from '../assets/project.png'
+import logo2 from '../assets/support.png'
+import logo3 from '../assets/workers.png'
 
 const Team = () => {
   return (
@@ -47,6 +51,79 @@ const Team = () => {
             Learn more...
           </a>
 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="grid gap-5 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="px-12 text-center sm:px-0">
+          <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+          <img
+          src={logo}
+          alt="Logo" 
+          className="w-8 h-8 sm:w-10 sm:h-10" 
+        />
+          </div>
+          <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+          <span className="text-orange-400">
+            CLIENTS
+            </span>
+          </h6>
+          <div className="mb-2 text-gray-700">
+          Our diverse clientele ranges from multinational corporations to local businesses, all trusting us for their logistics needs.
+          </div>
+        </div>
+        <div className="px-12 text-center sm:px-0">
+          <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+          <img
+          src={logo1}
+          alt="Logo" 
+          className="w-8 h-8 sm:w-10 sm:h-10" 
+        />
+          </div>
+          <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+          <span className="text-orange-400">
+            PROJECTS
+            </span>
+          </h6>
+          <div className="mb-2 text-gray-700">
+          We handle a wide array of projects, from small-scale shipments to large-scale logistics operations, with precision and expertise.
+            </div>
+        </div>
+        <div className="px-12 text-center sm:px-0">
+          <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+          <img
+          src={logo3}
+          alt="Logo" 
+          className="w-8 h-8 sm:w-10 sm:h-10" 
+        />
+          </div>
+          <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+          <span className="text-orange-400">
+            WORKERS
+            </span>
+          </h6>
+          <div className="mb-2 text-gray-700">
+          Our team of skilled professionals is committed to delivering exceptional service, leveraging their expertise to exceed client expectations.
+          </div>
+        </div>
+        <div className="px-12 text-center sm:px-0">
+          <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+          <img
+          src={logo2}
+          alt="Logo" 
+          className="w-8 h-8 sm:w-10 sm:h-10" 
+        />
+
+          </div>
+          <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+          <span className="text-orange-400">
+            SUPPORTS
+            </span>
+          </h6>
+          <div className="mb-2 text-gray-700">
+          Our dedicated support team is available around the clock to assist clients with any inquiries or issues, ensuring seamless operations.
           </div>
         </div>
       </div>
