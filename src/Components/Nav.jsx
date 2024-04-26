@@ -74,21 +74,21 @@ const Nav = () => {
           </div>
 
           {mobileDrawerOpen && (
-            <div className="fixed right-0 z-20 text-lg text-white backdrop-blur-lg w-full  p-12 flex flex-col justify-center items-center  lg:hidden">
+            <div className=" hover:text-orange-500 fixed right-0 z-20 text-lg text-black backdrop-blur-lg w-full  p-12 flex flex-col justify-center items-center  lg:hidden">
               <ul onClick={closeNavbar}>
-                <li>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/home">Home</Link>
                 </li>
-                <li>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/aboutus">About Us</Link>
                 </li>
-                <li>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/services">Services</Link>
                 </li>
-                <li>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/team">The Team</Link>
                 </li>
-                <li>
+                <li className ="text-black hover:text-orange-500">
                   <Link to="/contact">Contact Us</Link>
                 </li>
               </ul>

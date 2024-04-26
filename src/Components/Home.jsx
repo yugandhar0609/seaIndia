@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="relative object-cover">
-        <img
+        <img className="object-cover"
           src={img1}
           alt="background"
           className="responsive-image w-full h-[668px] object-cover" 
