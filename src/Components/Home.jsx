@@ -1,6 +1,7 @@
 import img1 from "../assets/Bg.jpeg";
 import image from "../assets/choose.jpeg";
 import "../Components/css/Home.css";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -73,9 +74,10 @@ const Home = () => {
           <p className="text-lg md:text-xl lg:text-2xl font-bold text-orange-500">
             For Book Your Shipping From Any Country
           </p>
-          <button className="mt-3 bg-orange-500 font-bold text-white text-lg rounded-3xl p-2 md:mt-10 hover:bg-orange-600 hover:border hover:border-white">
+
+          <Link to ="/contact"><button className="mt-3 bg-orange-500 font-bold text-white text-lg rounded-3xl p-2 md:mt-10 hover:bg-orange-600 hover:border hover:border-white">
             Contact With Us
-          </button>
+          </button></Link>
         </div>
       </div>
     </>
