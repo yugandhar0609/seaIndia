@@ -3,10 +3,10 @@ const nodeMailer = require("nodemailer");
 
 const CreateUserData = async (req, res) => {
   try {
-    const { name, emailid, phone, message } = req.body;
-    const CreateData = new UserDB({ name, emailid, phone, message });
+    const { name, lastName, emailid, phone, message } = req.body;
+    const CreateData = new UserDB({ name, lastName, emailid, phone, message });
     await CreateData.save();
-    await SendMailToUser(name, emailid, phone, message);
+    await SendMailToUser(name, lastName, emailid, phone, message);
     console.log(SendMailToUser);
     res.json({
       data: CreateData,
@@ -22,7 +22,7 @@ const CreateUserData = async (req, res) => {
   }
 };
 
-const SendMailToUser = async (name, emailid, phone, message) => {
+const SendMailToUser = async (name, lastName, emailid, phone, message) => {
   try {
     const transporter = nodeMailer.createTransport({
       service: "gmail",
@@ -38,6 +38,7 @@ const SendMailToUser = async (name, emailid, phone, message) => {
       html: `
         <h1>New Form Submission</h1>
         <p>Name: ${name}</p>
+        <p>Name: ${lastName}</p>
         <p>Email: ${emailid}</p>
         <p>Phone: ${phone}</p>        
         <p>Message: ${message}</p>
