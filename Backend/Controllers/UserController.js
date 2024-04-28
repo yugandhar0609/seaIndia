@@ -3,10 +3,11 @@ const nodeMailer = require("nodemailer");
 
 const CreateUserData = async (req, res) => {
   try {
-    const { name, emailid, phone, option, message } = req.body;
+    const { name, emailid, phone, message } = req.body;
     const CreateData = new UserDB({ name, emailid, phone, message });
     await CreateData.save();
     await SendMailToUser(name, emailid, phone, message);
+    console.log(SendMailToUser);
     res.json({
       data: CreateData,
       message: "Form submitted successfully!",
@@ -38,8 +39,7 @@ const SendMailToUser = async (name, emailid, phone, message) => {
         <h1>New Form Submission</h1>
         <p>Name: ${name}</p>
         <p>Email: ${emailid}</p>
-        <p>Phone: ${phone}</p>
-        
+        <p>Phone: ${phone}</p>        
         <p>Message: ${message}</p>
       `,
     };
