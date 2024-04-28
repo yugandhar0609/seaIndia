@@ -12,7 +12,7 @@ const ContactForm = () => {
     phone: "",
     message: "",
   });
-  const apiURL = process.env.REACT_APP_API_URL;
+  const apiURL = "process.env.REACT_APP_API_URL";
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -100,22 +100,23 @@ const ContactForm = () => {
             </div>
           </div>
         </form>
-        <div className="w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto bg-blue-900 rounded-2xl">
-          <div className="flex flex-col text-white">
-            <h1 className="font-bold uppercase text-4xl my-4">Our Offices</h1>
+
+        <div className="w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto bg-gradient-to-r from-orange-500 to-red-800 rounded-2xl">
+          <div className="flex flex-col text-black">
+            <h1 className="font-bold uppercase text-4xl texrt- my-4">Our Offices</h1>
 
             {/* Main Office */}
             <div className="flex my-2 w-full lg:w-2/3">
               <div className="flex flex-col">
                 <h2 className="text-2xl">Main Office</h2>
-                <p className="text-gray-400">
+                <p className="text-white">
                   SEAINDIA Freight System PRVT LTD Old 309/310, II Floor, Linghi
                   Chetty street, Chennai 600 001, TN IN <br />
                   Tel : +91 44 2521 7261 mail : info@seaindia.co.in
                 </p>
                 <Link
                   to="https://maps.app.goo.gl/UMXX7xSUobMDoSm88?g_st=ic"
-                  className="text-blue-300 hover:text-blue-400"
+                  className="text-blue-900 hover:text-blue-400"
                 >
                   Google Map
                 </Link>
@@ -126,14 +127,14 @@ const ContactForm = () => {
             <div className="flex my-4 w-full lg:w-2/3">
               <div className="flex flex-col">
                 <h2 className="text-2xl">MUMBAI Office </h2>
-                <p className="text-gray-400">
+                <p className="text-white">
                   Plot no.19, Office no.111, Gauri Commercial Complex, Secton
                   No. 11, CBD Belapur, NAVI MUMBAI - 400614. Tel : +91 022
                   27572192 Fax : +91 022 27572194 Mail : mumbai@seaindia.co.in
                 </p>
                 <Link
                   to="https://maps.app.goo.gl/UMXX7xSUobMDoSm88?g_st=ic"
-                  className="text-blue-300 hover:text-blue-400"
+                  className="text-blue-900 hover:text-blue-400"
                 >
                   Google Map
                 </Link>
@@ -143,14 +144,14 @@ const ContactForm = () => {
             <div className="flex my-4 w-full lg:w-2/3">
               <div className="flex flex-col">
                 <h2 className="text-2xl">TUTICORIN</h2>
-                <p className="text-gray-400">
+                <p className="text-white">
                   4/48, New Salt Colony, Tuticorin - 628 003 Tel : +91 461 237
                   6840, +91 461 400 0850 Fax : +91 461 237 819 Mail :
                   tuticorin@seaindia.co.in
                 </p>
                 <Link
                   to="https://maps.app.goo.gl/UMXX7xSUobMDoSm88?g_st=ic"
-                  className="text-blue-300 hover:text-blue-400"
+                  className="text-blue-900 hover:text-blue-400"
                 >
                   Google Map
                 </Link>
