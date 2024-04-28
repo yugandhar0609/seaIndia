@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { toast } from "react-hot-toast";
+import "react-toastify/dist/ReactToastify.css";
 
-function ContactForm() {
+const ContactForm = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -10,29 +12,25 @@ function ContactForm() {
     phone: "",
     message: "",
   });
-
+  const apiURL = process.env.REACT_APP_API_URL;
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
     try {
-      await axios.post("/api/contact", formData);
-      alert("Message sent successfully!");
-      // Optionally, clear the form after successful submission
-      //     setFormData({
-      //         firstName: '',
-      //         lastName: '',
-      //         email: '',
-      //         phone: '',
-      //         message: ''
-      //     });
-      // } 
-      
-      console.error("Error sending message:", error);
-      alert("Failed to send message. Please try again later.");
-    } catch (error) {}
+      const response = await axios.post(`${apiURL}/post`, formData);
+      if (response.data.success) {
+        toast.success(response.data.message);
+      } else {
+        toast.error(response.data.message);
+      }
+    } catch (error) {
+      toast.error("Something went wrong");
+
+      // console.log("Data", data);
+    }
   };
 
   return (
@@ -113,8 +111,7 @@ function ContactForm() {
                 <p className="text-gray-400">
                   SEAINDIA Freight System PRVT LTD Old 309/310, II Floor, Linghi
                   Chetty street, Chennai 600 001, TN IN <br />
-                  Tel : +91 44 2521 7261
-                  mail : info@seaindia.co.in
+                  Tel : +91 44 2521 7261 mail : info@seaindia.co.in
                 </p>
                 <Link
                   to="https://maps.app.goo.gl/UMXX7xSUobMDoSm88?g_st=ic"
@@ -196,6 +193,6 @@ function ContactForm() {
       </div>
     </>
   );
-}
+};
 
 export default ContactForm;

@@ -6,18 +6,17 @@ const CreateUserData = async (req, res) => {
     const { name, lastName, emailid, phone, message } = req.body;
     const CreateData = new UserDB({ name, lastName, emailid, phone, message });
     await CreateData.save();
-    await SendMailToUser(name, lastName, emailid, phone, message);
-    console.log(SendMailToUser);
+    await SendMailToUser(name, lastName, emailid, phone, message); 
     res.json({
       data: CreateData,
       message: "Form submitted successfully!",
-      success: "true",
+      success: true, 
     });
   } catch (error) {
     res.status(500).json({
-      Error: error.message,
+      error: error.message, 
       message: "Error submitting form",
-      success: "false",
+      success: false, 
     });
   }
 };
