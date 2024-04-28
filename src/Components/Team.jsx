@@ -57,7 +57,7 @@ const Team = () => {
         </div>
       </div>
     </div>
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
       <div className="grid gap-5 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <div className="px-12 text-center sm:px-0">
           <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
@@ -130,8 +130,7 @@ const Team = () => {
         </div>
       </div>
     </div>
-
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5 lg:py-10">
       <div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
         <p className="inline-block px-3 py-px mb-4 text-xl font-bold tracking-wider text-black-900 uppercase rounded-full bg-teal-accent-400">
         key executives 
