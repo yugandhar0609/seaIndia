@@ -4,7 +4,8 @@ import why from "../assets/why.jpeg";
 import figma from "../assets/figma.png";
 import "../Components/css/Home.css";
 import { Link } from "react-router-dom";
-import { FaEarthAsia } from "react-icons/fa6";
+import { FaEarthAsia, FaKey } from "react-icons/fa6";
+import { FaSave } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
         <img
           src={img1}
           alt="background"
-          className=" w-full h-[450px] md:h-[490px]"
+          className=" w-full h-[450px] md:h-[490px] "
         />
         <div className=" absolute overlay-text mobile">
           <p>SEAINDIA FREIGHT SYSTEM PRIVATE LIMITED</p>
@@ -24,32 +25,91 @@ const Home = () => {
       </div>
 
       <div>
-        <p className=" md:mt-4 text-center text-3xl font-extrabold text-orange-500">
+        <p className="  mt-5 text-xl md:mt-6 text-center md:text-3xl font-extrabold text-orange-500">
           Welcome to SEAINDIA Freight System Private Limited!
         </p>
       </div>
+
       <div className="md:flex">
-        <div className="md:mt-5 md:flex-wrap ">
-          <div className=" md:ml-10 text-6xl font-bold font-serif">
-            <p>Solutions For Your</p>
-            <p>Business Need</p>
+        <div className="md:mt-5 md:flex-wrap">
+          <div className="flex md:flex-wrap text-lg  ml-10 md:ml-14 md:text-5xl font-bold font-serif">
+            <p>Solutions For Your Business Need</p>
           </div>
-          {/* <div>
-          <FaEarthAsia className="text-2xl"/>
-          </div> */}
+
+          <div className=" flex flex-wrap items-center justify-center gap-5 md:gap-20 md:ml-10 px-2  md:mt-10  md:px-4">
+            <div className=" flex flex-col items-center  border border-blue-500 p-10 md:p-10 rounded-xl shadow-xl overflow-hidden shadow-md">
+              <FaEarthAsia className="text-xl md:text-4xl" />
+
+              <h2 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
+                Your intercontinental
+              </h2>
+              <h2 className="text-lg md:text-xl font-bold text-gray-800">
+                shipping solutions
+              </h2>
+              <p className="text-gray-600  mt-2">
+                With enhanced supply chain solution
+              </p>
+              <p className="text-gray-600 ">will accelerate your business</p>
+            </div>
+            <div className="flex flex-col items-center  border border-blue-500 p-12  md:p-10 rounded-xl shadow-xl overflow-hidden shadow-md">
+              <FaSave className="text-xl md:text-4xl" />
+
+              <h2 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
+                One Place to save all
+              </h2>
+              <h2 className="text-lg md:text-xl font-bold text-gray-800">
+                Your document
+              </h2>
+              <p className="text-gray-600  mt-2">
+                We provide cloud storage to save
+              </p>
+
+              <p className="text-gray-600">all your documents</p>
+            </div>
+            <div className="flex flex-col items-center  p-10 border border-blue-500   md:p-10 rounded-xl shadow-xl overflow-hidden shadow-md">
+              <FaKey className="text-xl md:text-4xl" />
+
+              <h2 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
+                Secure , reliable
+              </h2>
+              <h2 className="text-lg md:text-xl font-bold text-gray-800">
+                and transparent
+              </h2>
+              <p className="text-gray-600 mt-2">
+                Check every logistics in your pocket
+              </p>
+              <p className="text-gray-600">Your logistics is safe</p>
+            </div>
+          </div>
         </div>
-        <div class="max-w-lg mx-auto  rounded-xl overflow-hidden shadow-md">
-          <div class="p-4">
-            <div class="text-lg md:mr-10">
-              <p class="text-gray-700">
+
+        <div className="max-w-lg p-4 mx-auto   rounded-xl shadow-xl overflow-hidden shadow-md">
+          <div className="p-4">
+            <div className=" text-lg md:mr-10">
+              <p className=" text-2xl md:text-4xl font-bold text-orange-500 text-center">
+                SEAINDIA
+              </p>
+              <p className="md:mt-4 text-gray-700">
                 We are your strong fortress for all your shipping requirements.
                 Our experience and knowledge of the shipping industry give you
                 and your cargo a competitive edge in your business. Our prayer
                 for our valuable customers and us..
               </p>
-              <p class="text-gray-700 mt-4">
+              <p className="text-gray-700 mt-4">
                 May the Lord, the God of your fathers, increase you a thousand
                 times and bless you as he has promised - Deuteronomy 1:11
+              </p>
+              <p className="text-gray-700 mt-4">
+                Freight System Private Limited, we stand as a stalwart fortress,
+                guarding your shipping needs with unwavering dedication and
+                expertise. With years of experience and a deep understanding of
+                the intricacies of the shipping industry, we provide you and
+                your cargo with a distinct advantage in the competitive market
+                landscape.
+              </p>
+              <p className="text-gray-700 mt-4">
+                With gratitude for the trust you place in us and a steadfast
+                commitment to your success.
               </p>
             </div>
           </div>
@@ -133,7 +193,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" flex flex-wrap mt-5 mx- grid md:grid-cols-3 md:gap-16 md:mt-16">
+      <div className=" sflex flex-wrap mt-5 mx-6 grid md:grid-cols-3 md:gap-16 md:mt-16">
         <div>
           <img
             src={why}
