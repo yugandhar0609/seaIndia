@@ -7,6 +7,7 @@ import Team from "./Components/Team";
 import Contact from "./Components/contact";
 import { Toaster } from "react-hot-toast";
 
+
 function App() {
   return (
     <>
