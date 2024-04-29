@@ -19,7 +19,7 @@ const Nav = () => {
   return (
     <>
       <div>
-        <div className="fixed top-0 left-0 w-full z-20">
+        <div>
           <div className="hidden md:flex  bg-orange-500 py-2 gap-2 md:gap-10 ">
             <div className="flex flex-wrap ml-2">
               <div className="flex ml-2 mb-2 md:mb-0 md:mx-10 cursor-pointer">
