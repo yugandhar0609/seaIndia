@@ -1,0 +1,29 @@
+.img1{
+    opacity: 1;
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+    /* border: 2px solid red; */
+}   
+
+
+.overlay-p {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -0%);
+    text-align: center;
+    color: white;
+    font-weight:bold;
+    font-size: 6rem;
+    animation: slideUp 3s ease forwards;
+  }
+
+  .emptyBox{
+    border: 2px solid orangered;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 45%;
+    font-weight: bolder;
+  }
+
