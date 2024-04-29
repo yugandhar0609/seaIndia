@@ -150,7 +150,7 @@ const Team = () => {
             <p className="mb-4 text-xs font-bold text-orange-800">President & CEO</p>
             <p className="mb-4 text-sm tracking-wide text-gray-800">
               <a
-              href="/">+91 98400 55797</a><br></br>
+              href="/"> +91 98400 55797</a><br></br>
               <span>
               Email-  
               <a className="color: blue text-decoration: underline" href="mailto:tmrajaa@seaindia.co.in">tmrajaa@seaindia.co.in</a>
