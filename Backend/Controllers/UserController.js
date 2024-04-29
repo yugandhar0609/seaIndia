@@ -3,10 +3,10 @@ const nodeMailer = require("nodemailer");
 
 const CreateUserData = async (req, res) => {
   try {
-    const { name, lastName, emailid, phone, message } = req.body;
-    const CreateData = new UserDB({ name, lastName, emailid, phone, message });
+    const { firstName, lastName, email, phone, message } = req.body;
+    const CreateData = new UserDB({ firstName, lastName, email, phone, message });
     await CreateData.save();
-    await SendMailToUser(name, lastName, emailid, phone, message); 
+    await SendMailToUser(firstName, lastName, email, phone, message); 
     res.json({
       data: CreateData,
       message: "Form submitted successfully!",
@@ -21,7 +21,7 @@ const CreateUserData = async (req, res) => {
   }
 };
 
-const SendMailToUser = async (name, lastName, emailid, phone, message) => {
+const SendMailToUser = async (firstName, lastName, email, phone, message) => {
   try {
     const transporter = nodeMailer.createTransport({
       service: "gmail",
@@ -31,19 +31,20 @@ const SendMailToUser = async (name, lastName, emailid, phone, message) => {
       },
     });
     const mailOption = {
-      from: emailid,
+      from: email,
       to: "yugandhardeveloper@gmail.com",
       subject: "New Form Submission",
       html: `
         <h1>New Form Submission</h1>
-        <p>Name: ${name}</p>
+        <p>Name: ${firstName}</p>
         <p>Name: ${lastName}</p>
-        <p>Email: ${emailid}</p>
+        <p>Email: ${email}</p>
         <p>Phone: ${phone}</p>        
         <p>Message: ${message}</p>
       `,
     };
     await transporter.sendMail(mailOption);
+    console.log("Mail sended sucussfully");
   } catch (error) {
     console.error("Error in sending email:", error);
   }

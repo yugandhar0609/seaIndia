@@ -12,7 +12,7 @@ const ContactForm = () => {
     phone: "",
     message: "",
   });
-  const apiURL = "process.env.REACT_APP_API_URL";
+  // const apiURL = "process.env.REACT_APP_API_URL";
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -20,7 +20,7 @@ const ContactForm = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post(`${apiURL}/post`, formData);
+      const response = await axios.post('http://localhost:5000/post', formData);
       if (response.data.success) {
         toast.success(response.data.message);
       } else {
