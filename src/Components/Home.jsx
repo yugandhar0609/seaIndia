@@ -1,4 +1,4 @@
-import img1 from "../assets/Bg.jpeg";
+import img1 from "../assets/cirilando.png";
 import image from "../assets/choose.jpeg";
 import why from "../assets/why.jpeg";
 import figma from "../assets/figma.png";
@@ -14,7 +14,7 @@ const Home = () => {
         <img
           src={img1}
           alt="background"
-          className=" w-full h-[450px] md:h-[490px] "
+          className=" w-full h-[450px] md:h-[500px] "
         />
         <div className=" absolute overlay-text mobile">
           <p>SEAINDIA FREIGHT SYSTEM PRIVATE LIMITED</p>
