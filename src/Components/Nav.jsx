@@ -19,7 +19,7 @@ const Nav = () => {
   return (
     <>
       <div>
-        <nav>
+        <div className="fixed top-0 left-0 w-full z-20">
           <div className="hidden md:flex  bg-orange-500 py-2 gap-2 md:gap-10 ">
             <div className="flex flex-wrap ml-2">
               <div className="flex ml-2 mb-2 md:mb-0 md:mx-10 cursor-pointer">
@@ -28,7 +28,6 @@ const Nav = () => {
               </div>
               <div className="flex mb-2 ml-2 md:mb-0 cursor-pointer">
                 <MdPhone className="mt-1 text-lg" />
-                {/* <h1 className="">+91 7342890780</h1> */}
                 <Link to="tel:+917293420670">+91 7293420670</Link>
               </div>
             </div>
@@ -38,7 +37,7 @@ const Nav = () => {
               <RiInstagramFill />
             </div>
           </div>
-          <div className="flex items-center justify-between">
+          <div className=" bg-white flex items-center justify-between">
             <img
               className=" ml-2 md:ml-9 mb-4 md:mb-0"
               src={img}
@@ -72,29 +71,29 @@ const Nav = () => {
               </button>
             </div>
           </div>
+        </div>
 
-          {mobileDrawerOpen && (
-            <div className=" fixed right-0 z-20 text-lg font-bold text-white backdrop-blur-lg w-full  p-12 flex flex-col justify-center items-center  lg:hidden">
-              <ul onClick={closeNavbar}>
-                <li className="">
-                  <Link to="/home">Home</Link>
-                </li>
-                <li className="">
-                  <Link to="/aboutus">About Us</Link>
-                </li>
-                <li className="">
-                  <Link to="/services">Services</Link>
-                </li>
-                <li className="">
-                  <Link to="/team">The Team</Link>
-                </li>
-                <li className="">
-                  <Link to="/contact">Contact Us</Link>
-                </li>
-              </ul>
-            </div>
-          )}
-        </nav>
+        {mobileDrawerOpen && (
+          <div className=" fixed top-20 left-0 z-20 text-xl font-bold text-black bg-orange-500 h-[370px] flex flex-col justify-center items-center w-[300px]  lg:hidden">
+            <ul onClick={closeNavbar}>
+              <li className="mt-10 ml-2">
+                <Link to="/home">Home</Link>
+              </li>
+              <li className="mt-10 ml-2">
+                <Link to="/aboutus">About Us</Link>
+              </li>
+              <li className="mt-10 ml-2">
+                <Link to="/services">Services</Link>
+              </li>
+              <li className="mt-10 ml-2">
+                <Link to="/team">The Team</Link>
+              </li>
+              <li className="mt-10 ml-2">
+                <Link to="/contact">Contact Us</Link>
+              </li>
+            </ul>
+          </div>
+        )}
       </div>
     </>
   );
