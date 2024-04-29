@@ -25,14 +25,14 @@ const Home = () => {
       </div>
 
       <div>
-        <p className="  mt-5 text-xl md:mt-6 text-center md:text-3xl font-extrabold text-orange-500">
+        <p className="  mt-5 text-xl md:mt-6 text-center md:text-3xl font-extrabold text-blue-500">
           Welcome to SEAINDIA Freight System Private Limited!
         </p>
       </div>
 
       <div className="md:flex">
         <div className="md:mt-5 md:flex-wrap">
-          <div className="flex md:flex-wrap text-lg  ml-10 md:ml-14 md:text-5xl font-bold font-serif">
+          <div className="flex md:flex-wrap text-lg  ml-10 md:ml-20 md:text-5xl font-bold font-serif">
             <p>Solutions For Your Business Need</p>
           </div>
 
