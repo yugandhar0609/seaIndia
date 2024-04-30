@@ -4,6 +4,8 @@ import img15 from "../assets/image1.png";
 const About = () => {
   return (
     <section>
+      <br />
+      <br />
     <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="bg-orange-600 p-8 md:p-12 lg:px-16 lg:py-24">
