@@ -118,6 +118,50 @@ const About = () => {
       </div>
     </div>
   </div>
+  <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
+    <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Services</h2>
+    <p class="mb-12 text-lg text-gray-500">Here is a few of the awesome Services we provide.</p>
+    <div class="w-full"> 
+        <div class="flex flex-col w-full mb-5 sm:flex-row">
+            <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+                <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-400 rounded-lg"></span>
+                    <div class="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg">
+                        <div class="flex items-center -mt-1">
+                            <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Shiping</h3>
+                        </div>
+                        <p class="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">------------</p>
+                        <p class="mb-2 text-gray-600">Much freight transport is done by cargo ships. An individual nation's fleet and the people that crew it are referred to as its merchant navy or merchant marine. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+                <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
+                    <div class="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
+                        <div class="flex items-center -mt-1">
+                            <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Customs Clearance</h3>
+                        </div>
+                        <p class="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">------------</p>
+                        <p class="mb-2 text-gray-600">Customs clearance is the process of declaring goods to Customs authorities when entering or leaving a country. Individuals or businesses can do this. Goods subject to customs clearance include items that are being imported or exported, as well as personal effects and commercial shipments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2">
+                <div class="relative h-full ml-0 md:mr-10">
+                    <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
+                    <div class="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
+                        <div class="flex items-center -mt-1">
+                            <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Forwarding Agent</h3>
+                        </div>
+                        <p class="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">------------</p>
+                        <p class="mb-2 text-gray-600">Forwarding agent is a person or a company who co-ordinates and organizes the movement of shipments on behalf of a shipper (party that arranges an item for shipment) by liaising with carriers (party that transports goods).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
    
   </section>
