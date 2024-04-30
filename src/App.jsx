@@ -5,10 +5,14 @@ import Services from "./Components/Services";
 import About from "./Components/About";
 import Team from "./Components/Team";
 import Contact from "./Components/contact";
+import { Toaster } from "react-hot-toast";
+import Footer from "./Components/Footer";
+
 
 function App() {
   return (
     <>
+     <Toaster position="top-center" reverseOrder={false} />
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -18,6 +22,7 @@ function App() {
         <Route path="/team" element={<Team/>}/>
         <Route path="/contact" element={<Contact/>}/> 
       </Routes>
+      <Footer/>
     </>
   );
 }
