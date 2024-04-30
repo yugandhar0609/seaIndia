@@ -14,7 +14,7 @@ const Home = () => {
         <img
           src={img1}
           alt="background"
-          className=" w-full h-[450px] md:h-[500px] "
+          className=" w-full h-[450px] md:h-[580px] "
         />
         <div className=" absolute overlay-text mobile">
           <p>SEAINDIA FREIGHT SYSTEM PRIVATE LIMITED</p>

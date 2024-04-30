@@ -34,6 +34,91 @@ const About = () => {
         </div>
       </div>
     </div>
+    <div>
+ 
+    <div class="bg-white pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-8 lg:py-20">
+      <div class="bg-white mt-0 mr-auto mb-0 ml-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full">
+        <div class="mr-auto mb-10 ml-auto md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 max-w-xl">
+          <div>
+            <p class="pt-px pr-3 pb-px pl-3 mt-0 mr-0 mb-4 ml-0 text-xs font-semibold text-white bg-orange-500
+                rounded-full tracking-wider inline-block uppercase">Brand new</p>
+          </div>
+          <div class="mr-auto mb-6 ml-auto text-3xl font-bold leading-none text-gray-900 tracking-tight sm:text-4xl
+              md:mx-auto max-w-lg font-sans">
+            <div class="inline-block relative">
+              <p class="w-32 mr-0 mb-0 text-blue-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block -mt-8 -ml-20 absolute top-0
+                  left-0 z-0 hidden">
+                <svg viewbox="0 0 52 24" fill="currentColor" class="" id="Windframe_OVi1Um4hp"><defs><pattern
+                    id="d0d83814-78b6-480f-9a5f-7f637616b267" x="0" y="0" width=".135" height=".30"><circle cx="1"
+                    cy="1" r=".7"/></pattern></defs><rect fill="url(#d0d83814-78b6-480f-9a5f-7f637616b267)" width="52"
+                    height="24"/></svg>
+              </p>
+              <p class="text-3xl font-bold leading-none text-gray-900 relative fontsans inline-block">Improve</p>
+            </div>
+            <p class="inline"></p>
+            <p class="text-3xl font-bold leading-none text-gray-900 inline fontsans">your day to the MAX with Music</p>
+          </div>
+          <p fontsize="base" class="text-gray-700 md:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+        </div>
+        <div class="mt-0 mr-0 mb-8 ml-0 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2 grid relative gap-8 row-gap-5">
+          <div class="justify-center items-center sm:hidden lg:flex flex absolute inset-0">
+            <div class="w-px h-full bg-gray-300 lg:w-full lg:h-px"></div>
+          </div>
+          <div class="pt-5 pr-5 pb-5 pl-5 bg-white shadow-sm border rounded duration-300 transform
+              hover:-translate-y-2">
+            <div class="items-center justify-between mb-2 flex">
+              <p class="text-lg font-bold leading-5 text-Believe"></p>
+              <div class="items-center justify-center w-6 h-6 bg-indigo-50 flex rounded">
+                <p class="font-bold text-purple-400">1</p>
+              </div>
+            </div>
+            <p class="text-sm text-gray-900">Skate ipsum dolor sit amet, alley oop vert mute-air Colby Carter flail 180
+                berm.</p>
+          </div>
+          <div class="pt-5 pr-5 pb-5 pl-5 bg-white shadow-sm border rounded duration-300 transform
+              hover:-translate-y-2">
+            <div class="items-center justify-between mb-2 flex">
+              <p class="text-lg font-bold leading-5">Be your self</p>
+              <div class="items-center justify-center w-6 h-6 bg-indigo-50 flex rounded">
+                <p class="font-bold text-purple-400">2</p>
+              </div>
+            </div>
+            <p class="text-sm text-gray-900">A flower in my garden, a mystery in my panties. Heart attack never
+                stopped.</p>
+          </div>
+          <div class="pt-5 pr-5 pb-5 pl-5 bg-white shadow-sm border rounded duration-300 transform
+              hover:-translate-y-2">
+            <div class="items-center justify-between mb-2 flex">
+              <p class="text-lg font-bold leading-5">Just do it</p>
+              <div class="items-center justify-center w-6 h-6 bg-indigo-50 flex rounded">
+                <p class="font-bold text-purple-400">3</p>
+              </div>
+            </div>
+            <p class="text-sm text-gray-900">Chase ball of string eat plants, meow, and throw up because I ate plants
+                going.</p>
+          </div>
+          <div class="pt-5 pr-5 pb-5 pl-5 bg-white shadow-sm border rounded duration-300 transform
+              hover:-translate-y-2">
+            <div class="items-center justify-between mb-2 flex">
+              <p class="text-lg font-bold leading-5">Eat that</p>
+              <div class="items-center justify-center w-6 h-6 bg-indigo-50 flex rounded">
+                <p class="font-bold text-purple-400">4</p>
+              </div>
+            </div>
+            <p class="text-sm text-gray-900">Bro ipsum dolor sit amet gaper backside single track, manny Bike epic
+                clipless.</p>
+          </div>
+        </div>
+        <div class="text-center">
+          <button fontfamily="Arial" type="submit" class="inline-flex transition duration-200 rounded hover:bg-blue-900
+              focus:shadow-outline focus:outline-none items-center justify-center w-full h-12 pr-6 pl-6 font-medium
+              text-white shadow-md bg-blue-700 tracking-wide md:w-auto">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <div className="mx-auto max-w-screen-xs px-4 pb-8 pt-16 sm:px-6 lg:px-8">
     <div className="mt-16 grid grid-cols-1 gap-1 lg:grid-cols-2 lg:gap-32">
       <div className="mx-auto max-w-sm lg:max-w-none">
