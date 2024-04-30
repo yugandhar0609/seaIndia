@@ -449,21 +449,12 @@ const Services = () => {
         </div>
       </section>
     </div>
-<<<<<<< HEAD
-  </div>
-</section>
-   
-    
 
-    </div>
+
     
   )
 }
 
 export default Services
-=======
-  );
-};
 
-export default Services;
->>>>>>> d229659d56d67c84814099c6cd2535edba2e2ffc
+
