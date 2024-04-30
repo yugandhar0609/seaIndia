@@ -72,9 +72,9 @@ const Nav = () => {
         </div>
       </div>
 
-      <div className="pt-24">
+      <div className="">
         {mobileDrawerOpen && (
-          <div className="fixed top-20 text-white right-0 z-20 text-xl font-bold text-black bg-gradient-to-r from-orange-500 to-red-800 h-[450px] flex flex-col justify-center items-center w-[300px] transition-all duration-800 lg:hidden">
+          <div className="fixed top-20 text-white right-0 z-20 text-xl font-bold text-black bg-gradient-to-r from-orange-500 to-red-800 h-[370px] flex flex-col justify-center items-center w-[300px] transition-all duration-800 lg:hidden">
             <ul onClick={closeNavbar}>
               <li className="mt-10 ml-2">
                 <Link to="/home">Home</Link>
