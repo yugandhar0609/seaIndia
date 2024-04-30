@@ -112,10 +112,10 @@ const ContactForm = () => {
                 <p className="text-white">
                   SEAINDIA Freight System PRVT LTD Old 309/310, II Floor, Linghi
                   Chetty street, Chennai 600 001, TN IN <br />
-                  Tel : +91 44 2521 7261 mail : info@seaindia.co.in
+                  Tel : +91 44 2521 7261<br /> mail : info@seaindia.co.in
                 </p>
                 <Link
-                  to="https://maps.app.goo.gl/UMXX7xSUobMDoSm88?g_st=ic"
+                  to="https://maps.app.goo.gl/YykVukc2jyqrPgHu6"
                   className="text-blue-900 hover:text-blue-400"
                 >
                   Google Map
@@ -129,11 +129,11 @@ const ContactForm = () => {
                 <h2 className="text-2xl">MUMBAI Office </h2>
                 <p className="text-white">
                   Plot no.19, Office no.111, Gauri Commercial Complex, Secton
-                  No. 11, CBD Belapur, NAVI MUMBAI - 400614. Tel : +91 022
-                  27572192 Fax : +91 022 27572194 Mail : mumbai@seaindia.co.in
+                  No. 11, CBD Belapur, NAVI MUMBAI - 400614.<br /> Tel : +91 022
+                  27572192 <br />Fax : +91 022 27572194<br /> Mail : mumbai@seaindia.co.in
                 </p>
                 <Link
-                  to="https://maps.app.goo.gl/UMXX7xSUobMDoSm88?g_st=ic"
+                  to="https://maps.app.goo.gl/BSkgYdoFqdTom7Dt8"
                   className="text-blue-900 hover:text-blue-400"
                 >
                   Google Map
@@ -145,12 +145,12 @@ const ContactForm = () => {
               <div className="flex flex-col">
                 <h2 className="text-2xl">TUTICORIN</h2>
                 <p className="text-white">
-                  4/48, New Salt Colony, Tuticorin - 628 003 Tel : +91 461 237
-                  6840, +91 461 400 0850 Fax : +91 461 237 819 Mail :
+                  4/48, New Salt Colony, Tuticorin - 628 003 <br />Tel : +91 461 237
+                  6840, +91 461 400 0850 <br />Fax : +91 461 237 819 <br />Mail :
                   tuticorin@seaindia.co.in
                 </p>
                 <Link
-                  to="https://maps.app.goo.gl/UMXX7xSUobMDoSm88?g_st=ic"
+                  to="https://maps.app.goo.gl/3d7D5WUY74txgUir8"
                   className="text-blue-900 hover:text-blue-400"
                 >
                   Google Map
