@@ -115,59 +115,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div className="text-lg md:mr-10">
-          <p className="">
-            We are your strong fortress for all your shipping requirements. Our
-            experience and knowledge of the shipping industry gives you and your
-            cargo a competitive edge in your business. Our prayer for our
-            valuable customers and us..
-          </p>
-          <p>
-            May the Lord, the God of your fathers, increase you a thousand times
-            and bless you as he has promised - Deuteronomy 1:11
-          </p>
-        </div> */}
-
-      {/* <div className="mt-10 container mx-auto  px-8 lg:px-8">
-        <p className=" title text-center text-3xl font-extrabold text-orange-500">
-          Welcome to SEAINDIA Freight System Private Limited!
-        </p>
-        <p className="mt-10 text-lg">
-          At <b className="text-xl text-orange-500">SEAINDIA</b> Freight System
-          Private Limited, we stand as a stalwart fortress, guarding your
-          shipping needs with unwavering dedication and expertise. With years of
-          experience and a deep understanding of the intricacies of the shipping
-          industry, we provide you and your cargo with a distinct advantage in
-          the competitive market landscape.
-        </p>
-        <p className="mt-10 text-lg">
-          Just as the verse from Deuteronomy 1:11 implores, we too pray for
-          abundant blessings and prosperity for our esteemed customers and
-          ourselves. May the Lord, the God of your fathers, multiply your
-          success a thousandfold and bestow upon you the blessings He has
-          promised.
-        </p>
-        <p className="mt-10 text-lg">
-          In every shipment we handle, we strive to embody the spirit of
-          excellence and integrity, ensuring that your goods reach their
-          destination safely and efficiently. With our comprehensive range of
-          services encompassing shipping, clearing, and forwarding, we offer a
-          seamless solution tailored to meet your specific requirements.
-        </p>
-        <p className="mt-10 text-lg">
-          As your trusted partner in logistics, we are committed to going above
-          and beyond to exceed your expectations. Whether you're navigating the
-          complexities of international trade or seeking reliable transportation
-          solutions, you can rely on SEAINDIA Freight System Private Limited to
-          deliver results that propel your business forward.
-        </p>
-        <p className="mt-10 text-lg">
-          With gratitude for the trust you place in us and a steadfast
-          commitment to your success, we look forward to continuing our journey
-          together, guided by faith and fueled by dedication.
-        </p>
-      </div> */}
-
       <div className="relative">
         <img
           src={image}

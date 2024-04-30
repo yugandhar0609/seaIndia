@@ -12,7 +12,7 @@
     top: 55%;
     left: 20%;
     transform: translate(-50%, -0%);
-    text-align: center;
+    /* text-align: center; */
     color: white;
     font-weight:bold;
     font-size: 6rem;
@@ -26,4 +26,14 @@
     margin-left: 45%;
     font-weight: bolder;
   }
-
+  @media (max-width: 480px) {
+    .overlay-p {
+      font-size: 1.5rem;
+      margin-left: 27%;
+      margin-top: 10px;
+    }
+    .emptyBox{
+      margin-left: 30%;
+    }
+  
+  }
