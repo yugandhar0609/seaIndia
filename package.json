@@ -10,10 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-=======
-    "aos": "^2.3.4",
->>>>>>> d229659d56d67c84814099c6cd2535edba2e2ffc
+
     "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "keen-slider": "^6.8.6",
