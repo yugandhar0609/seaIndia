@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center md:justify-end">
           <ul className="flex space-x-4">
-            <li><Link to="/about" className="text-sm hover:text-gray-400">About Us</Link></li>
+            <li><Link to="/aboutus" className="text-sm hover:text-gray-400">About Us</Link></li>
             <li><Link to="/services" className="text-sm hover:text-gray-400">Services</Link></li>
             <li><Link to="/contact" className="text-sm hover:text-gray-400">Contact</Link></li>
             <li><Link to="/privacy-policy" className="text-sm hover:text-gray-400">Privacy Policy</Link></li>
