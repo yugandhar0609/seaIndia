@@ -9,21 +9,21 @@ const Services = () => {
   return (
     <div>
       <div className=" relative object-cover">
-        <img className="img1 " src={img1} alt="" />
+        <img className="img1 h-[450px] md:h-[650px] " src={img1} alt="" />
       </div>
       <div className=" absolute overlay-p">
         <p>
-          <span className="text-orange-500 animation-">Our</span>{" "}
-          <span className="text-black">Services</span>
+          <span className="text-orange-500 animation- ">Our</span>{" "}
+          <span className="text-black  ">Services</span>
         </p>
       </div>
 
       <div className="emptyBox"></div>
-      <p className=" flex justify-center text-3xl pt-10 pb-10 ">
+      <p className=" mt-16 mb-10 px-4  flex justify-center text-3xl md:my-10 ">
         Looking for a specific service? Narrow your search by selecting a
         service.
       </p>
-      <div className=" bg-orange-500 px-4 py- mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-5">
+      <div className=" bg-orange-500 px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-5">
         <h2 className=" relative bottom-10 p-10 flex  justify-center text-3xl font-bold sm:text-4xl">
           Shipping Services
         </h2>
@@ -449,12 +449,7 @@ const Services = () => {
         </div>
       </section>
     </div>
+  );
+};
 
-
-    
-  )
-}
-
-export default Services
-
-
+export default Services;
