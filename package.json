@@ -10,12 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@fortawesome/fontawesome-svg-core": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-=======
-    "aos": "^2.3.4",
->>>>>>> b2e71be1b5a579c3a36a3984f3f9ac9dee1ce5fe
     "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "keen-slider": "^6.8.6",
