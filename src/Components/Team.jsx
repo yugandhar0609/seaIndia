@@ -33,7 +33,7 @@ const Team = () => {
             </span> INDIA
           </p>
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            Your Lightinig
+            Your Lightings
             <br className="hidden md:block" />
             fast{' '}
             <span className="text-orange-400">
