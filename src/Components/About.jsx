@@ -1,14 +1,17 @@
 import React from "react";
-import img1 from "../assets/cirilando.png";
+import img13 from "../assets/image.png";
+import img15 from "../assets/image1.png";
 const About = () => {
   return (
     <section>
+      <br />
+      <br />
     <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="bg-orange-600 p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center">
             <h2 className="text-2xl font-bold text-white md:text-3xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit
+              SEAINDIA FREIGHT SYSTEM PRIVAE LIMITED..
             </h2>
   
             <p className="hidden text-white/90 sm:mt-4 sm:block">
@@ -22,13 +25,13 @@ const About = () => {
         <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
           <img
             alt="background"
-            src={img1}
+            src={img13}
             className="h-40 w-full object-cover sm:h-56 md:h-full"
           />
   
           <img
             alt=""
-            src={img1}
+            src={img15}
             className="h-40 w-full object-cover sm:h-56 md:h-full"
           />
         </div>
@@ -41,7 +44,7 @@ const About = () => {
         <div class="mr-auto mb-10 ml-auto md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 max-w-xl">
           <div>
             <p class="pt-px pr-3 pb-px pl-3 mt-0 mr-0 mb-4 ml-0 text-xs font-semibold text-white bg-orange-500
-                rounded-full tracking-wider inline-block uppercase">Brand new</p>
+                rounded-full tracking-wider inline-block uppercase">SEAINDIA FREIGHT SYSTEM PRIVAE LIMITED</p>
           </div>
           <div class="mr-auto mb-6 ml-auto text-3xl font-bold leading-none text-gray-900 tracking-tight sm:text-4xl
               md:mx-auto max-w-lg font-sans">

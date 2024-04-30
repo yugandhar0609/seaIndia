@@ -23,7 +23,7 @@ const Nav = () => {
           <div className="flex flex-wrap ml-2">
             <div className="flex ml-2 mb-2 md:mb-0 md:mx-10 cursor-pointer">
               <HiOutlineMailOpen className="mt-1 text-lg" />
-              <h1 className="ml-1">info@seaindia.com</h1>
+             <Link to="mailto:info@seaindia.com"> info@seaindia.com</Link>
             </div>
             <div className="flex mb-2 ml-2 md:mb-0 cursor-pointer">
               <MdPhone className="mt-1 text-lg" />
