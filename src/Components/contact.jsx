@@ -20,7 +20,7 @@ const ContactForm = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/post', formData);
+      const response = await axios.post(`https://seaindia-backend.onrender.com`, formData);
       if (response.data.success) {
         toast.success(response.data.message);
       } else {
