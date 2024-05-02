@@ -208,7 +208,7 @@ const Services = () => {
             <h6 className="mb-2 font-bold text-2xl leading-5">
               Specialized Shipping Services:
             </h6>
-            <p className="mb-3 text-bold text-gray-900">
+            <p className="mb-3 text-bold text-gray-200">
               Hazardous Materials Shipping: Safe and compliant transportation of
               dangerous goods, following regulatory requirements. Oversized and
               Heavy Haul Shipping: Transport of bulky or heavy cargo, including
