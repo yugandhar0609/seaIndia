@@ -6,7 +6,7 @@ const About = () => {
     <section>
       <br />
       <br />
-    <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8 mt-5">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="bg-orange-600 p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center">
@@ -38,8 +38,7 @@ const About = () => {
       </div>
     </div>
     <div>
- 
-    <div class="bg-white pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-8 lg:py-20">
+    <div class="bg-white pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-0 lg:py-0">
       <div class="bg-white mt-0 mr-auto mb-0 ml-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full">
         <div class="mr-auto mb-10 ml-auto md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 max-w-xl">
           <div>
@@ -56,7 +55,7 @@ const About = () => {
                     cy="1" r=".7"/></pattern></defs><rect fill="url(#d0d83814-78b6-480f-9a5f-7f637616b267)" width="52"
                     height="24"/></svg>
               </p>
-              <p class="text-3xl font-bold leading-none text-gray-900 relative fontsans inline-block">Improve</p>
+              <p class="text-3xl font-bold leading-none text-gray-900 relative fontsans inline-block">IMPROVE</p>
             </div>
             <p class="inline"></p>
             <p class="text-3xl font-bold leading-none text-gray-900 inline fontsans"> IN OUR COMPANY </p>
@@ -72,9 +71,7 @@ const About = () => {
               hover:-translate-y-2">
             <div class="items-center justify-between mb-2 flex">
               <p class="text-lg font-bold leading-5 text-Believe">About us</p>
-              <div class="items-center justify-center w-6 h-6 bg-indigo-50 flex rounded">
-                <p class="font-bold text-purple-400">1</p>
-              </div>
+              
             </div>
             <p class="text-sm text-gray-900">Skate ipsum dolor sit amet, alley oop vert mute-air Colby Carter flail 180
                 berm.</p>
@@ -83,9 +80,7 @@ const About = () => {
               hover:-translate-y-2">
             <div class="items-center justify-between mb-2 flex">
               <p class="text-lg font-bold leading-5">Be your self</p>
-              <div class="items-center justify-center w-6 h-6 bg-indigo-50 flex rounded">
-                <p class="font-bold text-purple-400">2</p>
-              </div>
+           
             </div>
             <p class="text-sm text-gray-900">We are a Christian organization. We believe the promises of our Lord and Savior Jesus Christ. We work with sincerity, integrity and a pure conscience.</p>
           </div>
@@ -93,33 +88,25 @@ const About = () => {
               hover:-translate-y-2">
             <div class="items-center justify-between mb-2 flex">
               <p class="text-lg font-bold leading-5">Just do it</p>
-              <div class="items-center justify-center w-6 h-6 bg-indigo-50 flex rounded">
-                <p class="font-bold text-purple-400">3</p>
-              </div>
+            
             </div>
             <p class="text-sm text-gray-900">We started our services in the Clearing and Forwarding realm in the year 1990. Since then, we had moved from a proprietorship firm, to a partnership firm and now, to a fully organized Private Limited Company, under the Companies Act, 1956.</p>
           </div>
           <div class="pt-5 pr-5 pb-5 pl-5 bg-white shadow-sm border rounded duration-300 transform
               hover:-translate-y-2">
             <div class="items-center justify-between mb-2 flex">
-              <p class="text-lg font-bold leading-5">Eat that</p>
-              <div class="items-center justify-center w-6 h-6 bg-indigo-50 flex rounded">
-                <p class="font-bold text-purple-400">4</p>
-              </div>
+              <p class="text-lg font-bold leading-5">Work that</p>
+             
+             
             </div>
             <p class="text-sm text-gray-900">We always strive to maintain a long term relationship with our valuable customers. With the increasing support and encouragement from the Customers, we are to able provide Freight Forwarding services - handled by our sister concern ANCHOR AIRGEO Forwarding Logistics Private Limited</p>
           </div>
         </div>
-        {/* <div class="text-center">
-          <button fontfamily="Arial" type="submit" class="inline-flex transition duration-200 rounded hover:bg-blue-900
-              focus:shadow-outline focus:outline-none items-center justify-center w-full h-12 pr-6 pl-6 font-medium
-              text-white shadow-md bg-blue-700 tracking-wide md:w-auto"> More information</button>
-        </div> */}
       </div>
     </div>
   </div>
-  <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
-    <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Our Work</h2>
+  <div class="container relative flex flex-col items-center justify-center h-full max-w-7xl px-10 mx-auto xl:px-0">
+    <h2 class="mb-1 text-3xl font-extrabold leading-tight  text-gray-900">Our Work</h2>
     <p class="mb-12 text-lg text-gray-500">Here is a few of the awesome Services we provide.</p>
     <div class="w-full"> 
         <div class="flex flex-col w-full mb-5 sm:flex-row">
