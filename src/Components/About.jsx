@@ -6,7 +6,7 @@ const About = () => {
     <section>
       <br />
       <br />
-    <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8 mt-5">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="bg-orange-600 p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center">
@@ -119,7 +119,7 @@ const About = () => {
     </div>
   </div>
   <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
-    <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Services</h2>
+    <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Our Work</h2>
     <p class="mb-12 text-lg text-gray-500">Here is a few of the awesome Services we provide.</p>
     <div class="w-full"> 
         <div class="flex flex-col w-full mb-5 sm:flex-row">
