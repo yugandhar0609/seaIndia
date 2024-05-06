@@ -11,10 +11,10 @@ const Services = () => {
       <div className=" relative object-cover">
         <img className="img1 h-[450px] md:h-[650px] " src={img1} alt="" />
       </div>
-      <div className=" absolute overlay-p">
+      <div className=" mt-4 absolute overlay-p">
         <p>
           <span className="text-orange-500 animation- ">Our</span>{" "}
-          <span className="text-white  ">Services</span>
+          <span className=" text-black  md:text-white   ">Services</span>
         </p>
       </div>
 

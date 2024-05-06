@@ -10,25 +10,26 @@ import { FaSave } from "react-icons/fa";
 const Home = () => {
   return (
     <>
-      <div className="relative object-cover">
+      <div className="relative object-cover ">
         <img
           src={img1}
           alt="background"
           className=" w-full h-[450px] md:h-[580px] "
         />
-        <div className=" absolute overlay-text mobile">
-          <p>SEAINDIA FREIGHT SYSTEM PRIVATE LIMITED</p>
-          <p className="sub-text mobile">
-            Shipping, Clearing and Forwarding Agents
-          </p>
+        <div className=" absolute overlay-text mobile text-black ">
+          
+          <p><span className="text-orange-500 ">SEAINDIA</span> FREIGHT SYSTEM PRIVATE LIMITED</p>
+      
         </div>
       </div>
 
       <div>
         <p className="  mt-5 text-xl md:mt-6 text-center md:text-3xl font-extrabold text-black font-serif">
-          Welcome to SEAINDIA Freight System Private Limited!
+          Welcome to <span className="text-orange-500 ">SEAINDIA</span> Shipping, Clearing and Forwarding Agents
         </p>
+        <div className="emptyBox"></div>
       </div>
+      
 
       <div className="md:flex ">
         <div className="md:mt-10 md:flex-wrap ">
@@ -83,23 +84,23 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="max-w-lg p-4 mx-auto   rounded-xl shadow-xl overflow-hidden shadow-md">
+        <div className="max-w-lg p-4 mx-auto rounded-xl ">
           <div className="p-4">
             <div className=" text-lg md:mr-10">
-              <p className=" text-2xl md:text-4xl font-bold text-orange-500 text-center">
+              <p className=" text-2xl md:text-4xl font-bold text-orange-500 justify-content">
                 SEAINDIA
               </p>
-              <p className="md:mt-4 text-gray-700">
+              <p className="md:mt-4 text-gray-700  justify-content text-justify">
                 We are your strong fortress for all your shipping requirements.
                 Our experience and knowledge of the shipping industry give you
                 and your cargo a competitive edge in your business. Our prayer
                 for our valuable customers and us..
               </p>
-              <p className="text-gray-700 mt-4">
+              <p className="text-gray-700 mt-4 text-justify">
                 May the Lord, the God of your fathers, increase you a thousand
                 times and bless you as he has promised - Deuteronomy 1:11
               </p>
-              <p className="text-gray-700 mt-4">
+              <p className="text-gray-700 mt-4 text-justify">
                 Freight System Private Limited, we stand as a stalwart fortress,
                 guarding your shipping needs with unwavering dedication and
                 expertise. With years of experience and a deep understanding of
@@ -107,7 +108,7 @@ const Home = () => {
                 your cargo with a distinct advantage in the competitive market
                 landscape.
               </p>
-              <p className="text-gray-700 mt-4">
+              <p className="text-gray-700 mt-4 text-justify">
                 With gratitude for the trust you place in us and a steadfast
                 commitment to your success.
               </p>
@@ -125,39 +126,51 @@ const Home = () => {
           <p className="text-lg md:text-xl lg:text-2xl font-extrabold text-black">
             We Provide
           </p>
-          <p className="text-xl md:text-3xl lg:text-4xl font-bold text-black">
+          <p className="text-xl md:text-3xl lg:text-4xl font-bold text-white">
             THE BEST SEA FREIGHT SYSTEMS
           </p>
-          <p className="text-lg md:text-xl lg:text-2xl font-bold text-black mt-2">
+          <p className="text-lg md:text-xl lg:text-2xl font-bold text-white mt-2">
             For Book Your Shipping From Any Country
           </p>
 
           <Link to="/contact">
-            <button className="mt-3 bg-orange-500 font-bold text-white text-lg rounded-3xl p-2 md:mt-8 hover:bg-orange-600 hover:border hover:border-white">
-              Contact With Us
-            </button>
+            
+    <div class="mt-2 md:mt-10 space-y-20">
+      <div class="w-full">
+        <div class="flex-1 h-full w-72 mx-auto ">
+          <div class="flex w-full bg-orange-400 shadow rounded-lg py-3 px-12  hover:bg-white">
+            <p class="m-auto inset-0 text-xl font-semibold leading-7 text-center text-gray-800">Container Button</p>
+            <div class="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-6" fill="none" viewBox="0 0 24 20" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
           </Link>
         </div>
       </div>
 
-      <div className=" sflex flex-wrap mt-5 mx-6 grid md:grid-cols-3 md:gap-16 md:mt-16">
-        <div>
+      <div className=" flex flex-wrap mt-5 mx-10 md:ml-28 lg:ml-32 grid md:grid-cols-3 md:gap-16 md:mt-16">
+        <div className="">
           <img
             src={why}
             alt="images"
-            className=" rounded-xl  md:ml-40 md:w-[460px] md:h-[290px]"
+            className=" rounded-xl   md:w-[460px] md:h-[290px]"
           />
         </div>
         <div>
-          <p className=" mt-4 md:ml-28 text-xl font-semibold">
+          <p className=" mt-4  text-xl font-bold">
             Why Choose Us ?
           </p>
-          <p className=" mt-4 md:ml-28 md:mt-3">
+          <p className=" mt-4  md:mt-3 text-justify">
             Our extensive global network ensures seamless transport, while our
             tailored solutions cater to your unique requirements. Count on us
             for on-time delivery, secure handling, and open communication
           </p>
-          <p className=" mt-4 md:ml-28 md:mt-3">
+          <p className=" mt-4 md:mt-3 text-justify">
             Embracing innovation, we utilize technology for optimized logistics.
             Choose SeaIndia Freight Systems as your trusted partner for
             dependable success.
@@ -167,7 +180,7 @@ const Home = () => {
           <img
             src={figma}
             alt="services"
-            className=" mt-4 md:w-64 md:h-[290px]"
+            className=" mt-4 md:h-[290px]"
           />
         </div>
       </div>
@@ -237,7 +250,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-700 text-justify">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 sit rerum incidunt, a consequuntur recusandae ab saepe illo est
                 quia obcaecati neque quibusdam eius accusamus error officiis
@@ -303,7 +316,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-700 text-justify">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 sit rerum incidunt, a consequuntur recusandae ab saepe illo est
                 quia obcaecati neque quibusdam eius accusamus error officiis
@@ -369,7 +382,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-700 text-justify">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 sit rerum incidunt, a consequuntur recusandae ab saepe illo est
                 quia obcaecati neque quibusdam eius accusamus error officiis
