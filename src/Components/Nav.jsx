@@ -18,10 +18,10 @@ const Nav = () => {
   };
   return (
     <>
-      <div className="fixed top-0 left-0 w-full bg-white z-50">
-        <div className="hidden md:flex  bg-orange-500 py-2 gap-2 md:gap-10 ">
-          <div className="flex flex-wrap ml-2">
-            <div className="flex ml-2 mb-2 md:mb-0 md:mx-10 cursor-pointer">
+      <div className=" mb-20 fixed top-0 left-0 w-full bg-white z-50 ">
+        <div className=" hidden md:flex  bg-orange-500 py-2 gap-2 md:gap-10 ">
+          <div className=" flex flex-wrap ml-2 ">
+            <div className="flex ml-2 mb-2 md:mb-0 md:mx-10 cursor-pointer  ">
               <HiOutlineMailOpen className="mt-1 text-lg" />
              <Link to="mailto:info@seaindia.com"> info@seaindia.com</Link>
             </div>
@@ -36,7 +36,7 @@ const Nav = () => {
             <RiInstagramFill />
           </div>
         </div>
-        <div className=" bg-white flex items-center justify-between">
+        <div className="mb-2 bg-white flex items-center justify-between">
           <img
             className=" ml-2 md:ml-9 mb-4 md:mb-0"
             src={img}

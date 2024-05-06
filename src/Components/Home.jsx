@@ -25,14 +25,14 @@ const Home = () => {
       </div>
 
       <div>
-        <p className="  mt-5 text-xl md:mt-6 text-center md:text-3xl font-extrabold text-blue-500">
+        <p className="  mt-5 text-xl md:mt-6 text-center md:text-3xl font-extrabold text-black font-serif">
           Welcome to SEAINDIA Freight System Private Limited!
         </p>
       </div>
 
-      <div className="md:flex">
-        <div className="md:mt-5 md:flex-wrap">
-          <div className="flex md:flex-wrap text-lg  ml-10 md:ml-20 md:text-5xl font-bold font-serif">
+      <div className="md:flex ">
+        <div className="md:mt-10 md:flex-wrap ">
+          <div className="flex md:flex-wrap text-lg  justify-center md:text-2xl  font-bold font-serif">
             <p>Solutions For Your Business Need</p>
           </div>
 
@@ -128,12 +128,12 @@ const Home = () => {
           <p className="text-xl md:text-3xl lg:text-4xl font-bold text-black">
             THE BEST SEA FREIGHT SYSTEMS
           </p>
-          <p className="text-lg md:text-xl lg:text-2xl font-bold text-orange-500">
+          <p className="text-lg md:text-xl lg:text-2xl font-bold text-black mt-2">
             For Book Your Shipping From Any Country
           </p>
 
           <Link to="/contact">
-            <button className="mt-3 bg-orange-500 font-bold text-white text-lg rounded-3xl p-2 md:mt-10 hover:bg-orange-600 hover:border hover:border-white">
+            <button className="mt-3 bg-orange-500 font-bold text-white text-lg rounded-3xl p-2 md:mt-8 hover:bg-orange-600 hover:border hover:border-white">
               Contact With Us
             </button>
           </Link>

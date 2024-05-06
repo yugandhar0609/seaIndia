@@ -122,10 +122,10 @@ const ContactForm = () => {
                       Linghi Chetty street, Chennai 600 001, TN IN{" "}
                     </p>
                   </Link>{" "}
-                  <Link to="tel:914425217261">Tel : +91 44 2521 7261</Link>
+                  <Link to="tel:914425217261">Tel : +91 44 2521 7261</Link><br />
                   <Link to="mailto:info@seaindia.com">
                     {" "}
-                    mail : info@seaindia.co.in
+                    Mail : info@seaindia.co.in
                   </Link>
                 </div>
               </div>
@@ -142,7 +142,7 @@ const ContactForm = () => {
                       Secton No. 11, CBD Belapur, NAVI MUMBAI - 400614.{" "}
                     </p>
                   </Link>{" "}
-                  <Link to="tel:9102227572192">Tel : +91 022 27572192</Link>
+                  <Link to="tel:9102227572192">Tel : +91 022 27572192</Link><br />
                   <Link to="mailto:mumbai@seaindia.co.in">
                     {" "}
                     Mail : mumbai@seaindia.co.in
@@ -158,7 +158,7 @@ const ContactForm = () => {
                   <Link to="https://maps.app.goo.gl/DUayDbVxZwSPvNL66">
                     <p>4/48, New Salt Colony, Tuticorin - 628 003 </p>
                   </Link>
-                  <Link to="tel:91 4612376840">Tel : +91 461 237 6840</Link>
+                  <Link to="tel:91 4612376840">Tel : +91 461 237 6840</Link><br />
                   <Link to="mailto:tuticorin@seaindia.co.in">
                     {" "}
                     Mail : tuticorin@seaindia.co.in
