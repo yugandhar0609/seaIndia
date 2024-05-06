@@ -7,9 +7,10 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between px-4">
         <div className="mb-4 md:mb-0">
           <h3 className="text-xl font-bold mb-2">SEAINDIA Freight Systems Pvt. Ltd.</h3>
-          <p className="text-sm">123 Shipping Lane, Ocean City</p>
-          <p className="text-sm">Seaport, SEA 12345</p>
-          <p className="text-sm">Contact: +1 (123) 456-7890</p>
+          <p className="text-sm">Old 309/310, II Floor,
+                      Linghi Chetty street</p>
+          <p className="text-sm">Chennai 600 001, TN IN</p>
+          <p className="text-sm">Contact: +91 44 2521 7261</p>
         </div>
         <div className="flex justify-center md:justify-end">
           <ul className="flex space-x-4">

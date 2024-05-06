@@ -22,12 +22,12 @@ const Nav = () => {
         <div className=" hidden md:flex  bg-orange-500 py-2 gap-2 md:gap-10 ">
           <div className=" flex flex-wrap ml-2 ">
             <div className="flex ml-2 mb-2 md:mb-0 md:mx-10 cursor-pointer  ">
-              <HiOutlineMailOpen className="mt-1 text-lg" />
-             <Link to="mailto:info@seaindia.com"> info@seaindia.com</Link>
+              <HiOutlineMailOpen className="mt-1 text-lg " />
+             <Link to="mailto:info@seaindia.com"className="text-white"> info@seaindia.com</Link>
             </div>
             <div className="flex mb-2 ml-2 md:mb-0 cursor-pointer">
               <MdPhone className="mt-1 text-lg" />
-              <Link to="tel:+917293420670">+91 7293420670</Link>
+              <Link to="tel:+917293420670"className="text-white">+91 7293420670</Link>
             </div>
           </div>
           <div className="flex mr-2 mt-5 md:mt-1 ml-auto mr- md:mr-16 gap-8 text-lg cursor-pointer">
@@ -45,7 +45,7 @@ const Nav = () => {
           />
 
           <ul
-            className=" hidden md:flex ml-2  md:ml-auto md:gap-10 mr-4 md:mr-16 text-black font-semibold mt-2 md:mt-0 text-lg"
+            className=" hidden md:flex ml-2 md:ml-auto md:gap-10 mr-4 md:mr-16 text-black font-semibold mt-2 md:mt-0 text-lg"
             onClick={closeNavbar}
           >
             <li className="hover:text-orange-500">

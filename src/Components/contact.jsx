@@ -105,7 +105,7 @@ const ContactForm = () => {
           </div>
         </form>
 
-        <div className="w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto z-50 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl">
+        <div className=" relative z-20 w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl">
           <div className="flex flex-col text-black">
             <h1 className="font-bold uppercase text-4xl texrt- my-4">
               Our Offices
@@ -117,13 +117,13 @@ const ContactForm = () => {
                 <h2 className="text-2xl">Main Office</h2>
                 <div className="text-white">
                   <Link to="https://maps.app.goo.gl/YykVukc2jyqrPgHu6">
-                    <p>
+                    <p className="hover:text-black transition-color duration-500">
                       SEAINDIA Freight System PRVT LTD Old 309/310, II Floor,
                       Linghi Chetty street, Chennai 600 001, TN IN{" "}
                     </p>
                   </Link>{" "}
-                  <Link to="tel:914425217261">Tel : +91 44 2521 7261</Link><br />
-                  <Link to="mailto:info@seaindia.com">
+                  <Link to="tel:914425217261" className="hover:text-black transition-color duration-500">Tel : +91 44 2521 7261</Link><br />
+                  <Link to="mailto:info@seaindia.com" className="hover:text-black transition-color duration-500">
                     {" "}
                     Mail : info@seaindia.co.in
                   </Link>
@@ -137,13 +137,13 @@ const ContactForm = () => {
                 <h2 className="text-2xl">MUMBAI Office </h2>
                 <div className="text-white">
                   <Link to="https://maps.app.goo.gl/BSkgYdoFqdTom7Dt8">
-                    <p>
+                    <p className="hover:text-black transition-color duration-500"> 
                       Plot no.19, Office no.111, Gauri Commercial Complex,
                       Secton No. 11, CBD Belapur, NAVI MUMBAI - 400614.{" "}
                     </p>
                   </Link>{" "}
-                  <Link to="tel:9102227572192">Tel : +91 022 27572192</Link><br />
-                  <Link to="mailto:mumbai@seaindia.co.in">
+                  <Link to="tel:9102227572192" className="hover:text-black transition-color duration-500">Tel : +91 022 27572192</Link><br />
+                  <Link to="mailto:mumbai@seaindia.co.in" className="hover:text-black transition-color duration-500">
                     {" "}
                     Mail : mumbai@seaindia.co.in
                   </Link>
@@ -156,10 +156,10 @@ const ContactForm = () => {
                 <h2 className="text-2xl">TUTICORIN</h2>
                 <div className="text-white">
                   <Link to="https://maps.app.goo.gl/DUayDbVxZwSPvNL66">
-                    <p>4/48, New Salt Colony, Tuticorin - 628 003 </p>
+                    <p className="hover:text-black transition-color duration-500">4/48, New Salt Colony, Tuticorin - 628 003 </p>
                   </Link>
-                  <Link to="tel:91 4612376840">Tel : +91 461 237 6840</Link><br />
-                  <Link to="mailto:tuticorin@seaindia.co.in">
+                  <Link to="tel:91 4612376840" className="hover:text-black transition-color duration-500">Tel : +91 461 237 6840</Link><br />
+                  <Link to="mailto:tuticorin@seaindia.co.in" className="hover:text-black transition-color duration-500">
                     {" "}
                     Mail : tuticorin@seaindia.co.in
                   </Link>
@@ -169,8 +169,8 @@ const ContactForm = () => {
           </div>
           
         </div>
-        <div className=" inline-block lg:-mt-72 my-10 z-0">
-           <Link to="" className="rounded-2xl"> <img src={Map} alt="map" /> </Link>
+        <div className=" inline-block lg:-mt-72 my-10 ">
+           <Link to="" className="rounded-2xl z-10 container"> <img src={Map} alt="map" /> </Link>
            </div>
       </div>
     </>

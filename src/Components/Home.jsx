@@ -27,18 +27,18 @@ const Home = () => {
         <p className="  mt-5 text-xl md:mt-6 text-center md:text-3xl font-extrabold text-black font-serif">
           Welcome to <span className="text-orange-500 ">SEAINDIA</span> Shipping, Clearing and Forwarding Agents
         </p>
-        <div className="emptyBox"></div>
+        <div className="emptyBox md:mt-10"></div>
       </div>
       
 
-      <div className="md:flex ">
+      <div className="mt-5 md:flex">
         <div className="md:mt-10 md:flex-wrap ">
           <div className="flex md:flex-wrap text-lg  justify-center md:text-2xl  font-bold font-serif">
             <p>Solutions For Your Business Need</p>
           </div>
 
           <div className=" flex flex-wrap items-center justify-center gap-5 md:gap-20 md:ml-10 px-2  md:mt-10  md:px-4">
-            <div className=" flex flex-col items-center  border border-blue-500 p-10 md:p-10 rounded-xl shadow-xl overflow-hidden shadow-md">
+            <div className=" flex flex-col items-center  border border-blue-500 p-10 md:p-10 rounded-xl shadow-xl overflow-hidden shadow-md ">
               <FaEarthAsia className="text-xl md:text-4xl" />
 
               <h2 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
@@ -135,10 +135,10 @@ const Home = () => {
 
           <Link to="/contact">
             
-    <div class="mt-2 md:mt-10 space-y-20">
+    <div class="md:mt-10 space-y-20">
       <div class="w-full">
         <div class="flex-1 h-full w-72 mx-auto ">
-          <div class="flex w-full bg-orange-400 shadow rounded-lg py-3 px-12  hover:bg-white">
+          <div class="flex w-full bg-orange-500 shadow rounded-lg py-3 px-12  hover:bg-white">
             <p class="m-auto inset-0 text-xl font-semibold leading-7 text-center text-gray-800">Container Button</p>
             <div class="">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-6" fill="none" viewBox="0 0 24 20" stroke="currentColor">
