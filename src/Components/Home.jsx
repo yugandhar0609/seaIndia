@@ -1,9 +1,4 @@
 import img1 from "../assets/back.jpg";
-<<<<<<< HEAD
-=======
-import mano from "../assets/mano.png";
-import yugendhar from "../assets/yugendhar.png";
->>>>>>> 02e3fd7440f3a91cc7aa113c61f9d0f0f81d3ac9
 import ship from "../assets/ship1.jpg"
 import why from "../assets/why.jpeg";
 import figma from "../assets/figma.png";
@@ -12,6 +7,8 @@ import { Link } from "react-router-dom";
 import { FaEarthAsia, FaKey } from "react-icons/fa6";
 import { FaSave } from "react-icons/fa";
 import Footer from "../Components/Footer";
+import mano from "../assets/mano.png";
+import yugendhar from "../assets/yugendhar.png";
 
 const Home = () => {
   return (
@@ -393,13 +390,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-<<<<<<< HEAD
-      <Footer/>
-    </>
-=======
+
 
          </>
->>>>>>> 02e3fd7440f3a91cc7aa113c61f9d0f0f81d3ac9
   );
 };
 
