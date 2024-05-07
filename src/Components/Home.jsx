@@ -1,5 +1,6 @@
-import img1 from "../assets/cirilando.png";
-import image from "../assets/choose.jpeg";
+import img1 from "../assets/back.jpg";
+
+import ship from "../assets/ship1.jpg"
 import why from "../assets/why.jpeg";
 import figma from "../assets/figma.png";
 import "../Components/css/Home.css";
@@ -10,18 +11,17 @@ import { FaSave } from "react-icons/fa";
 const Home = () => {
   return (
     <>
-      <div className="relative object-cover ">
-        <img
-          src={img1}
-          alt="background"
-          className=" w-full h-[450px] md:h-[580px] "
-        />
-        <div className=" absolute overlay-text mobile text-black ">
-          
-          <p><span className="text-orange-500 ">SEAINDIA</span> FREIGHT SYSTEM PRIVATE LIMITED</p>
-      
-        </div>
-      </div>
+      <div className="relative">
+  <img
+    src={img1}
+    alt="background"
+    className="w-full h-[450px] md:h-[780px] object-cover"
+  />
+  <div className="absolute overlay-text mobile text-black">
+    <p><span className="text-orange-500">SEAINDIA</span> FREIGHT SYSTEM PRIVATE LIMITED</p>
+  </div>
+</div>
+
 
       <div>
         <p className="  mt-5 text-xl md:mt-6 text-center md:text-3xl font-extrabold text-black font-serif">
@@ -118,15 +118,13 @@ const Home = () => {
       </div>
       <div className="relative">
         <img
-          src={image}
+          src={ship}
           alt="background"
-          className=" mt-10 w-full md:h-[400px] object-cover opacity-80"
+          className=" mt-10 w-full md:h-[400px] object-cover "
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 text-center">
-          <p className="text-lg md:text-xl lg:text-2xl font-extrabold text-black">
-            We Provide
-          </p>
-          <p className="text-xl md:text-3xl lg:text-4xl font-bold text-white">
+          
+          <p className="text-xl md:text-3xl lg:text-4xl font-bold text--300">
             THE BEST SEA FREIGHT SYSTEMS
           </p>
           <p className="text-lg md:text-xl lg:text-2xl font-bold text-white mt-2">
@@ -138,7 +136,7 @@ const Home = () => {
     <div class="md:mt-10 space-y-20">
       <div class="w-full">
         <div class="flex-1 h-full w-72 mx-auto ">
-          <div class="flex w-full bg-orange-500 shadow rounded-lg py-3 px-12  hover:bg-white">
+          <div class="flex w-full bg-orange-400 shadow rounded-lg py-3 px-12  hover:bg-white">
             <p class="m-auto inset-0 text-xl font-semibold leading-7 text-center text-gray-800">Container Button</p>
             <div class="">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-6" fill="none" viewBox="0 0 24 20" stroke="currentColor">
