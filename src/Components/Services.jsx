@@ -30,7 +30,7 @@ const Services = () => {
         Looking for a specific service? Narrow your search by selecting a
         service.
       </p>
-      <div className="bg-orange-400">
+      <div className="bg-orange-500">
       <div className="  px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-5">
         <h2 className=" relative bottom-10 p-10 flex  justify-center text-3xl font-bold sm:text-4xl">
           Shipping Services
@@ -51,7 +51,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -71,7 +71,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -90,7 +90,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -109,7 +109,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -131,7 +131,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center  font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -152,7 +152,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className=" hover inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -163,9 +163,10 @@ const Services = () => {
 
       <div className="">
         <h1 className="font-bold  text-4xl md:flex  justify-center pt-10 sm: flex justify-center">LOGISTICS</h1>
+        <div className="emptyBox1"></div>
         <p className=" text-4xl  md:flex  justify-center py-10 pt-5 sm: text-l flex justify-center items-center">End-to-End Cargo Solutions That You Can Rely On</p>
       </div>
-
+      
       <div w-full>
         <img className="w-full" src={img2} alt="logistics" />
       </div>
