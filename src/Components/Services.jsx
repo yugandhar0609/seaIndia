@@ -4,6 +4,13 @@ import "./css/service.css";
 import img2 from "../assets/new.png";
 import mano from "../assets/mano.png";
 import yugendhar from "../assets/yugendhar.png";
+import ocean from "../assets/shipping2.png";
+import frieght from "../assets/fieght3.png";
+import railway from "../assets/railway2.png";
+import road from "../assets/road.png";
+import special from "../assets/special.png";
+import intermodel from "../assets/intermodel.png";
+
 
 const Services = () => {
   return (
@@ -30,20 +37,8 @@ const Services = () => {
         </h2>
         <div className="grid gap-20 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+            <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={ocean} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Ocean freight</h6>
             <p className="mb-3 text-bold text-white">
@@ -56,26 +51,14 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={frieght} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Air freight</h6>
             <p className="mb-3 text-bold text-white">
@@ -88,26 +71,14 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={railway} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Rail freight</h6>
             <p className="mb-3 text-bold text-white">
@@ -119,26 +90,14 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={road} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Road freight</h6>
             <p className="mb-3 text-bold text-white">
@@ -150,26 +109,14 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={intermodel} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">
               Intermodal transportation
@@ -184,14 +131,14 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center  font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-             
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={special} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">
               Specialized Shipping Services:
@@ -205,7 +152,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className=" hover inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-orange-800"
             >
               Book Now
             </a>
