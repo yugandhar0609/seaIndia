@@ -181,10 +181,10 @@ const Home = () => {
             alt="services"
             className=" mt-4 md:h-[290px]"
           />
-        </div>
+        </div>  
       </div>
       <section className="bg-gray-50">
-        <div className=" mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 py-5">
+        <div className=" mx-auto max-w-screen-xl px-4 py-14 sm:px-6 lg:px-8 py-5">
           <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Read trusted reviews from our customers
           </h2>
