@@ -20,7 +20,9 @@ const Home = () => {
     className="w-full h-[450px] md:h-[680px] object-cover"
   />
   <div className="absolute overlay-text mobile text-black">
-    <p><span className="text-orange-500">SEAINDIA</span><span className="text-white"> FREIGHT SYSTEM PRIVATE LIMITED</span></p>
+    <p className="text-white">
+       <span className="text-orange-500">SEAINDIA</span> FREIGHT SYSTEM PRIVATE LIMITED
+    </p>
   </div>
 </div>
 
