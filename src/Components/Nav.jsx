@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { animateScroll } from 'react-scroll';
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { HiOutlineMailOpen } from "react-icons/hi";
@@ -8,6 +9,16 @@ import { RiInstagramFill } from "react-icons/ri";
 import img from "../assets/Logo.jpg";
 
 const Nav = () => {
+  const scrollToTop = () => {
+    animateScroll.scrollToTop({
+      duration: 500,
+      smooth: true,
+    });
+  };
+
+  const handleMenuClick = () => {
+    scrollToTop(); // Scroll to top before navigating to the section
+  };
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -49,19 +60,19 @@ const Nav = () => {
             onClick={closeNavbar}
           >
             <li className="hover:text-orange-500">
-              <Link to="/home">Home</Link>
+              <Link to="/home" onClick={handleMenuClick}>Home</Link>
             </li>
             <li className="hover:text-orange-500">
-              <Link to="/aboutus">About Us</Link>
+              <Link to="/aboutus" onClick={handleMenuClick}>About Us</Link>
             </li>
             <li className="hover:text-orange-500">
-              <Link to="/services">Services</Link>
+              <Link to="/services" onClick={handleMenuClick}>Services</Link>
             </li>
             <li className="hover:text-orange-500">
-              <Link to="/team">The Team</Link>
+              <Link to="/team" onClick={handleMenuClick}>The Team</Link>
             </li>
             <li className="hover:text-orange-500">
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact" onClick={handleMenuClick}>Contact Us</Link>
             </li>
           </ul>
           <div className=" mr-2 lg:hidden md:flex flex-col justify-end ">

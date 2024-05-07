@@ -1,4 +1,6 @@
-import React from 'react'
+
+import React, { useEffect } from 'react';
+import { animateScroll } from 'react-scroll';
 import logo from '../assets/client-1.png'
 import logo1 from '../assets/project.png'
 import logo2 from '../assets/support.png'
@@ -6,7 +8,21 @@ import logo3 from '../assets/workers.png'
 import ceo from '../assets/ceo.jpeg'
 import tech from '../assets/technical.jpg'
 
+
+
+const options = {
+  duration: 500,
+  smooth: true,
+};
+
+const scrollToTop = () => {
+  animateScroll.scrollToTop(options);
+};
 const Team = () => {
+  useEffect(() => {
+ 
+    scrollToTop();
+  }, []);
   return (
     <>
        
@@ -168,6 +184,7 @@ const Team = () => {
               
             </p>
           </div>
+         
         </div>
       </div>
     </div>
