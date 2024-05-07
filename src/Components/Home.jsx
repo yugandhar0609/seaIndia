@@ -137,7 +137,7 @@ const Home = () => {
       <div class="w-full">
         <div class="flex-1 h-full w-72 mx-auto ">
           <div class="flex w-full bg-orange-400 shadow rounded-lg py-3 px-12  hover:bg-white">
-            <p class="m-auto inset-0 text-xl font-semibold leading-7 text-center text-gray-800">Container Button</p>
+            <Link to="/services"><p class="m-auto inset-0 text-xl font-semibold leading-7 text-center text-gray-800">Explore</p></Link>
             <div class="">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-6" fill="none" viewBox="0 0 24 20" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
