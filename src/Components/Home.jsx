@@ -1,6 +1,4 @@
 import img1 from "../assets/back.jpg";
-import mano from "../assets/mano.png";
-import yugendhar from "../assets/yugendhar.png";
 import ship from "../assets/ship1.jpg"
 import why from "../assets/why.jpeg";
 import figma from "../assets/figma.png";
@@ -9,6 +7,8 @@ import { Link } from "react-router-dom";
 import { FaEarthAsia, FaKey } from "react-icons/fa6";
 import { FaSave } from "react-icons/fa";
 import Footer from "../Components/Footer";
+import mano from "../assets/mano.png";
+import yugendhar from "../assets/yugendhar.png";
 
 const Home = () => {
   return (
@@ -126,7 +126,7 @@ const Home = () => {
           alt="background"
           className=" mt-10 w-full md:h-[400px] object-cover "
         />
-        <div className="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 text-center">
+        <div className="absolute top-1/2 left-1/3 transform -translate-y-1/2 -translate-x-1/2 text-center">
           
           <p className="text-xl md:text-3xl lg:text-4xl font-bold text--300">
             THE BEST SEA FREIGHT SYSTEMS
@@ -134,12 +134,21 @@ const Home = () => {
           <p className="text-lg md:text-xl lg:text-2xl font-bold text-white mt-2">
             For Book Your Shipping From Any Country
           </p>
-
+              
+          <div className=" pt-5 my-2 w-1/2 lg:w-1/4">
+            </div>
           <Link to="/contact">
             
     
           </Link>
+          <button
+                type="submit"
+                className="uppercase text-sm font-bold tracking-wide bg-orange-500 text-gray-100  rounded-lg w-36 h-12 focus:outline-none focus:shadow-outline"
+              >
+                Send Message
+              </button>
         </div>
+        
       </div>
 
       <div className=" flex flex-wrap mt-5 mx-10 md:ml-28 lg:ml-32 grid md:grid-cols-3 md:gap-16 md:mt-16">
@@ -392,8 +401,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+
       <Footer/>
-    </>
+
+         </>
+
 
   );
 };
