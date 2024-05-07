@@ -12,11 +12,7 @@ const About = () => {
         <div className="bg-orange-600 p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center">
             <h2 className="text-2xl font-bold text-white md:text-3xl">
-<<<<<<< HEAD
               SEAINDIA FREIGHT SYSTEM PRIVATE LIMITED...
-=======
-              SEAINDIA FREIGHT SYSTEM PRIVATE LIMITED..
->>>>>>> 1a7098bcc5c46b785575199db8eeecf42c2badf5
             </h2>
   
             <p className="hidden text-white/90 sm:mt-4 sm:block">
