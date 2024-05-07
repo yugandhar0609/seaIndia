@@ -392,7 +392,11 @@ const Home = () => {
       </section>
 
 
+      <Footer/>
+
          </>
+
+
   );
 };
 
