@@ -41,7 +41,7 @@ const Nav = () => {
               <Link to="tel:+917293420670"className="text-white">+91 7293420670</Link>
             </div>
           </div>
-          <div className="flex mr-2 mt-5 md:mt-1 ml-auto mr- md:mr-16 gap-8 text-lg cursor-pointer">
+          <div className="flex mr-2 mt-5 md:mt-1 ml-auto text-white md:mr-16 gap-8 text-lg cursor-pointer">
             <FaFacebookF />
             <FaTwitter />
             <RiInstagramFill />
