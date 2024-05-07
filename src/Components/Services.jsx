@@ -51,7 +51,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-800 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
