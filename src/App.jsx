@@ -6,7 +6,7 @@ import About from "./Components/About";
 import Team from "./Components/Team";
 import Contact from "./Components/contact";
 import { Toaster } from "react-hot-toast";
-import Footer from "./Components/Footer";
+
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <Route path="/team" element={<Team/>}/>
       <Route path="/contact" element={<Contact/>}/> 
       </Routes>
-      <Footer/>
+      
     </>
   );
 }

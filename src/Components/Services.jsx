@@ -10,6 +10,7 @@ import railway from "../assets/railway2.png";
 import road from "../assets/road.png";
 import special from "../assets/special.png";
 import intermodel from "../assets/intermodel.png";
+import Footer from "../Components/Footer";
 
 
 const Services = () => {
@@ -390,7 +391,9 @@ const Services = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
+    
   );
 };
 

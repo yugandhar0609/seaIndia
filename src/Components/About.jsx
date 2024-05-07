@@ -1,6 +1,7 @@
 import React from "react";
 import img13 from "../assets/image.png";
 import img15 from "../assets/image1.png";
+import Footer from "../Components/Footer";
 const About = () => {
   return (
     <section>
@@ -106,7 +107,7 @@ const About = () => {
     </div>
   </div>
   <div class="container relative flex flex-col items-center justify-center h-full max-w-7xl px-10 mx-auto xl:px-0">
-    <h2 class="mb-1 text-3xl font-extrabold leading-tight  text-gray-900">Our Work</h2>
+    <h2 class="mb-1 text-3xl font-extrabold leading-tight  text-gray-900">Our Services</h2>
     <p class="mb-12 text-lg text-gray-500">Here is a few of the awesome Services we provide.</p>
     <div class="w-full"> 
         <div class="flex flex-col w-full mb-5 sm:flex-row">
@@ -149,6 +150,7 @@ const About = () => {
         </div>
     </div>
 </div>
+<Footer/>
 
    
   </section>
