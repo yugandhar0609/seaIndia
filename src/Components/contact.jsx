@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import "react-toastify/dist/ReactToastify.css";
-import Map from "../assets/map.jpg";
+// import Map from "../assets/map.jpg";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -13,7 +13,7 @@ const ContactForm = () => {
     phone: "",
     message: "",
   });
-  // const apiURL = "process.env.REACT_APP_API_URL";
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -33,7 +33,6 @@ const ContactForm = () => {
     } catch (error) {
       toast.error("Something went wrong");
 
-      // console.log("Data", data);
     }
   };
 
@@ -122,8 +121,17 @@ const ContactForm = () => {
                       Linghi Chetty street, Chennai 600 001, TN IN{" "}
                     </p>
                   </Link>{" "}
-                  <Link to="tel:914425217261" className="hover:text-black transition-color duration-500">Tel : +91 44 2521 7261</Link><br />
-                  <Link to="mailto:info@seaindia.com" className="hover:text-black transition-color duration-500">
+                  <Link
+                    to="tel:914425217261"
+                    className="hover:text-black transition-color duration-500"
+                  >
+                    Tel : +91 44 2521 7261
+                  </Link>
+                  <br />
+                  <Link
+                    to="mailto:info@seaindia.com"
+                    className="hover:text-black transition-color duration-500"
+                  >
                     {" "}
                     Mail : info@seaindia.co.in
                   </Link>
@@ -137,13 +145,22 @@ const ContactForm = () => {
                 <h2 className="text-2xl">MUMBAI Office </h2>
                 <div className="text-white">
                   <Link to="https://maps.app.goo.gl/BSkgYdoFqdTom7Dt8">
-                    <p className="hover:text-black transition-color duration-500"> 
+                    <p className="hover:text-black transition-color duration-500">
                       Plot no.19, Office no.111, Gauri Commercial Complex,
                       Secton No. 11, CBD Belapur, NAVI MUMBAI - 400614.{" "}
                     </p>
                   </Link>{" "}
-                  <Link to="tel:9102227572192" className="hover:text-black transition-color duration-500">Tel : +91 022 27572192</Link><br />
-                  <Link to="mailto:mumbai@seaindia.co.in" className="hover:text-black transition-color duration-500">
+                  <Link
+                    to="tel:9102227572192"
+                    className="hover:text-black transition-color duration-500"
+                  >
+                    Tel : +91 022 27572192
+                  </Link>
+                  <br />
+                  <Link
+                    to="mailto:mumbai@seaindia.co.in"
+                    className="hover:text-black transition-color duration-500"
+                  >
                     {" "}
                     Mail : mumbai@seaindia.co.in
                   </Link>
@@ -156,10 +173,21 @@ const ContactForm = () => {
                 <h2 className="text-2xl">TUTICORIN</h2>
                 <div className="text-white">
                   <Link to="https://maps.app.goo.gl/DUayDbVxZwSPvNL66">
-                    <p className="hover:text-black transition-color duration-500">4/48, New Salt Colony, Tuticorin - 628 003 </p>
+                    <p className="hover:text-black transition-color duration-500">
+                      4/48, New Salt Colony, Tuticorin - 628 003{" "}
+                    </p>
                   </Link>
-                  <Link to="tel:91 4612376840" className="hover:text-black transition-color duration-500">Tel : +91 461 237 6840</Link><br />
-                  <Link to="mailto:tuticorin@seaindia.co.in" className="hover:text-black transition-color duration-500">
+                  <Link
+                    to="tel:91 4612376840"
+                    className="hover:text-black transition-color duration-500"
+                  >
+                    Tel : +91 461 237 6840
+                  </Link>
+                  <br />
+                  <Link
+                    to="mailto:tuticorin@seaindia.co.in"
+                    className="hover:text-black transition-color duration-500"
+                  >
                     {" "}
                     Mail : tuticorin@seaindia.co.in
                   </Link>
@@ -167,12 +195,21 @@ const ContactForm = () => {
               </div>
             </div>
           </div>
-          
         </div>
-        <div className=" inline-block lg:-mt-72 my-10 ">
-           <Link to="" className="rounded-2xl z-10 container"> <img src={Map} alt="map" /> </Link>
-           </div>
+       <div className="inline-block lg:-mt-72 ">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.0638869410163!2d80.2873247!3d13.0951376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f456fd1bdb5%3A0x8aa722748a1a5206!2sSEAINDIA%20Freight%20System%20PRVT%20LTD!5e0!3m2!1sen!2sin!4v1715062315257!5m2!1sen!2sin"
+    width="860"
+    height="300"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
+
       </div>
+      
     </>
   );
 };
