@@ -29,7 +29,7 @@ const Team = () => {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full mt-12 lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="lg:pr-10">
-        <p className="inline-block px-3 py-px mb-4 text-xl font-bold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+        <p className="inline-block  py-px mb-4 text-xl font-bold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
           <span className="text-orange-400">
           SEA
             </span> INDIA
@@ -57,6 +57,7 @@ const Team = () => {
         </div>
       </div>
     </div>
+    <div className=' bg-gray-200 py-10'>
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4">
       <div className="grid gap-5 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <div className="px-12 text-center sm:px-0">
@@ -129,6 +130,7 @@ const Team = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5 lg:py-10">
       <div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
