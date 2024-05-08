@@ -145,7 +145,7 @@ const Home = () => {
                 type="submit"
                 className="uppercase text-sm font-bold tracking-wide bg-orange-500 text-gray-100  rounded-lg w-36 h-12 focus:outline-none focus:shadow-outline"
               >
-                Send Message
+                Explore
               </button>
         </div>
         
