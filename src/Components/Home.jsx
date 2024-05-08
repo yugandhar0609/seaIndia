@@ -21,7 +21,7 @@ const Home = () => {
   />
   <div className="absolute overlay-text mobile text-black">
     <p className="text-white">
-       <span className="text-orange-500">SEAINDIA</span> FREIGHT SYSTEM PRIVATE LIMITED
+       <span className="text-orange-500">SEAINDIA</span>FREIGHT SYSTEM PRIVATE LIMITED
     </p>
   </div>
 </div>
