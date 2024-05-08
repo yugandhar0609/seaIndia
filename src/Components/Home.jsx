@@ -10,6 +10,7 @@ import Footer from "../Components/Footer";
 import mano from "../assets/mano.png";
 import yugendhar from "../assets/yugendhar.png";
 
+
 const Home = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const Home = () => {
   />
   <div className="absolute overlay-text mobile text-black">
     <p className="text-white">
-       <span className="text-orange-500">SEAINDIA</span> FREIGHT SYSTEM PRIVATE LIMITED
+       <span className="text-orange-500">SEAINDIA </span> FREIGHT SYSTEM PRIVATE LIMITED
     </p>
   </div>
 </div>
@@ -41,7 +42,7 @@ const Home = () => {
             <p>Solutions For Your Business Need</p>
           </div>
 
-          <div className=" flex flex-wrap items-center justify-center gap-5 md:gap-20 md:ml-10 px-2  md:mt-10  md:px-4">
+          <div className=" flex flex-wrap items-center justify-center gap-5 md:gap-20 md:ml-10 px-2  md:mt-10  md:px-4 ">
             <div className=" flex flex-col items-center  border border-blue-500 p-10 md:p-10 rounded-xl shadow-xl overflow-hidden shadow-md ">
               <FaEarthAsia className="text-xl md:text-4xl" />
 
