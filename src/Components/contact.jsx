@@ -198,10 +198,11 @@ const ContactForm = () => {
         </div>
        <div className="inline-block lg:-mt-80  ">
   <iframe
+    className=""
     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.0638869410163!2d80.2873247!3d13.0951376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f456fd1bdb5%3A0x8aa722748a1a5206!2sSEAINDIA%20Freight%20System%20PRVT%20LTD!5e0!3m2!1sen!2sin!4v1715062315257!5m2!1sen!2sin"
-    width="860"
-    height="300"
-    style={{ border: 0 }}
+    // width="860"
+    // height="300"
+    style={{ border: 0, width:"800px", height:"300px"}}
     allowFullScreen=""
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
