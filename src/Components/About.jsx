@@ -2,6 +2,7 @@ import React from "react";
 import img13 from "../assets/image.png";
 import img15 from "../assets/image1.png";
 import Footer from "../Components/Footer";
+import Content from "../Components/Content";
 const About = () => {
   return (
     <section>
@@ -150,6 +151,7 @@ const About = () => {
         </div>
     </div>
 </div>
+<Content/>
 <Footer/>
 
    

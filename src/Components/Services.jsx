@@ -11,6 +11,7 @@ import road from "../assets/road.png";
 import special from "../assets/special.png";
 import intermodel from "../assets/intermodel.png";
 import Footer from "../Components/Footer";
+import Content from "../Components/Content";
 
 
 const Services = () => {
@@ -22,17 +23,17 @@ const Services = () => {
       <div className=" mt-4 absolute overlay-p">
         <p>
           <span className="text-orange-500 animation- ">Our</span>{" "}
-          <span className=" text-black  md:text-white   ">Services</span>
+          <span className="  md:text-white   ">Services</span>
         </p>
       </div>
 
       <div className="emptyBox"></div>
-      <p className=" mt-16 mb-10 px-4  flex justify-center text-3xl md:my-10 ">
+      <p className=" md:mt-10 mb-10 px-4  flex justify-center text-3xl md:my-10 ">
         Looking for a specific service? Narrow your search by selecting a
         service.
       </p>
-      <div className="bg-orange-500">
-      <div className="  px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-5">
+      <div className="bg-gray-300">
+      <div className=" text-black  px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-5">
         <h2 className=" relative bottom-10 p-10 flex  justify-center text-3xl font-bold sm:text-4xl">
           Shipping Services
         </h2>
@@ -42,7 +43,7 @@ const Services = () => {
               <img className="rounded-full" src={ocean} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Ocean freight</h6>
-            <p className="mb-3 text-bold text-white">
+            <p className="mb-3 text-bold text-black">
               Full Container Load (FCL) Shipping: Exclusive use of a container
               for a single shipment. Less than Container Load (LCL) Shipping:
               Consolidation of multiple shipments in a single container.
@@ -52,7 +53,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-800 focus:ring-opacity-50 transition-colors duration-200"
+              className="bg-white inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-800 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -62,7 +63,7 @@ const Services = () => {
               <img className="rounded-full" src={frieght} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Air freight</h6>
-            <p className="mb-3 text-bold text-white">
+            <p className="mb-3 text-bold text-black">
               Expedited Shipping: Fast and time-sensitive delivery of goods via
               air transport. Direct and Consolidated Shipments: Options for
               exclusive or shared use of cargo space on aircraft.
@@ -72,7 +73,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
+              className=" bg-white inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -82,7 +83,7 @@ const Services = () => {
               <img className="rounded-full" src={railway} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Rail freight</h6>
-            <p className="mb-3 text-bold text-white">
+            <p className="mb-3 text-bold text-black">
               Domestic and International Rail Services: Transport of cargo via
               rail networks within a country or across borders. Intermodal
               Transportation: Integration of rail transport with other modes,
@@ -91,7 +92,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
+              className=" bg-white inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -101,7 +102,7 @@ const Services = () => {
               <img className="rounded-full" src={road} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Road freight</h6>
-            <p className="mb-3 text-bold text-white">
+            <p className="mb-3 text-bold text-black">
               Domestic and Cross-Border Trucking: Transport of goods by road
               within a country or between countries. Full Truckload (FTL) and
               Less than Truckload (LTL) Services: Options for exclusive or
@@ -110,7 +111,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
+              className=" bg-white inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -122,7 +123,7 @@ const Services = () => {
             <h6 className="mb-2 font-bold text-2xl leading-5">
               Intermodal transportation
             </h6>
-            <p className="mb-3 text-bold text-white">
+            <p className="mb-3 text-bold text-black">
               Multimodal Solutions: Integration of multiple modes of
               transportation (e.g., trucking, rail, ocean, air) to optimize
               supply chain efficiency. Door-to-Door Delivery: Seamless movement
@@ -132,7 +133,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
+              className=" bg-white inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -144,7 +145,7 @@ const Services = () => {
             <h6 className="mb-2 font-bold text-2xl leading-5">
               Specialized Shipping Services:
             </h6>
-            <p className="mb-3 text-bold text-white">
+            <p className="mb-3 text-bold text-black">
               Hazardous Materials Shipping: Safe and compliant transportation of
               dangerous goods, following regulatory requirements. Oversized and
               Heavy Haul Shipping: Transport of bulky or heavy cargo, including
@@ -153,7 +154,7 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
+              className=" bg-white inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
@@ -391,6 +392,7 @@ const Services = () => {
           </div>
         </div>
       </section>
+      <Content/>
       <Footer/>
     </div>
     

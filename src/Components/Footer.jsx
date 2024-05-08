@@ -1,26 +1,19 @@
 import { Link } from "react-router-dom";
-import img from "../assets/Logo.jpg";
+// import img from "../assets/Logo.jpg";
 
-const scrollToTop = () => {
-  animateScroll.scrollToTop({
-    duration: 500,
-    smooth: true,
-  });
-};
 
-const handleMenuClick = () => {
-  scrollToTop(); // Scroll to top before navigating to the section
-};
+
+// const handleMenuClick = () => {
+//   scrollToTop(); // Scroll to top before navigating to the section
+// };
 const Footer = () => {
   return (
     <div>
-      <div className="bg-gray-200 ">
+      {/* <div className="bg-gray-200 ">
       <footer class="bg-gray-900 md:mx-20 rounded-t-3xl">
         <div class="container px-6 py-8 mx-auto">
           <div class="flex flex-col items-center text-center">
-            {/* <a href="#">
-                <img class="w-auto h-7" src={img} alt=""/>
-            </a> */}
+           
 
             <p class="mt-5 text-l md:mt-6 text-center md:text-3xl font-extrabold text-white font-serif">
               Welcome to <span class="text-orange-500">SEAINDIA</span> Shipping,
@@ -37,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      </div>
+      </div> */}
       <footer className="bg-gray-800 text-white py-8 z-20">
         <div className="container mx-auto flex flex-col md:flex-row justify-between px-4">
           <div className="mb-4 md:mb-0">

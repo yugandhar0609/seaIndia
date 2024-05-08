@@ -39,9 +39,14 @@
       font-size: 1.5rem;
       margin-left: 27%;
       margin-top: 10px;
+      color: black;
+    }
+    .emptyBox1{
+      margin-left: 25%;
     }
     .emptyBox{
-      margin-left: 30%;
+      margin-left: 110px;
+      margin-top: 50px;
     }
   
   }

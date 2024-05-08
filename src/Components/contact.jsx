@@ -3,6 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "../Components/Footer";
 // import Map from "../assets/map.jpg";
 
 const ContactForm = () => {
@@ -32,7 +33,6 @@ const ContactForm = () => {
       }
     } catch (error) {
       toast.error("Something went wrong");
-
     }
   };
 
@@ -106,9 +106,7 @@ const ContactForm = () => {
 
         <div className=" relative z-20 w-full lg:-mt-96 mt-10 lg:w-2/6 px-8 py-10 ml-auto pb-10 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl">
           <div className="flex flex-col text-black">
-            <h1 className="font-bold uppercase text-4xl my-6">
-              Our Offices
-            </h1>
+            <h1 className="font-bold uppercase text-4xl my-6">Our Offices</h1>
 
             {/* Main Office */}
             <div className="flex my-2 w-full lg:w-2/3">
@@ -196,20 +194,19 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-       <div className="inline-block lg:-mt-80  ">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.0638869410163!2d80.2873247!3d13.0951376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f456fd1bdb5%3A0x8aa722748a1a5206!2sSEAINDIA%20Freight%20System%20PRVT%20LTD!5e0!3m2!1sen!2sin!4v1715062315257!5m2!1sen!2sin"
-    width="860"
-    height="300"
-    style={{ border: 0 }}
-    allowFullScreen=""
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-  ></iframe>
-</div>
-
+        <div className="inline-block lg:-mt-80  ">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.0638869410163!2d80.2873247!3d13.0951376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f456fd1bdb5%3A0x8aa722748a1a5206!2sSEAINDIA%20Freight%20System%20PRVT%20LTD!5e0!3m2!1sen!2sin!4v1715062315257!5m2!1sen!2sin"
+            width="860"
+            height="300"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
-      
+      <Footer/>
     </>
   );
 };

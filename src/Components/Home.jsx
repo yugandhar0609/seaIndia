@@ -1,5 +1,5 @@
 import img1 from "../assets/back.jpg";
-import ship from "../assets/ship1.jpg"
+import ship from "../assets/ship1.jpg";
 import why from "../assets/why.jpeg";
 import figma from "../assets/figma.png";
 import "../Components/css/Home.css";
@@ -9,32 +9,32 @@ import { FaSave } from "react-icons/fa";
 import Footer from "../Components/Footer";
 import mano from "../assets/mano.png";
 import yugendhar from "../assets/yugendhar.png";
-
+import Content from "../Components/Content";
 
 const Home = () => {
   return (
     <>
       <div className="relative">
-  <img
-    src={img1}
-    alt="background"
-    className="w-full h-[450px] md:h-[680px] object-cover"
-  />
-  <div className="absolute overlay-text mobile text-black">
-    <p className="text-white">
-       <span className="text-orange-500">SEAINDIA </span> FREIGHT SYSTEM PRIVATE LIMITED
-    </p>
-  </div>
-</div>
-
+        <img
+          src={img1}
+          alt="background"
+          className="w-full h-[450px] md:h-[680px] object-cover"
+        />
+        <div className="absolute overlay-text mobile text-black">
+          <p className="text-white">
+            <span className="text-orange-500">SEAINDIA </span> FREIGHT SYSTEM
+            PRIVATE LIMITED
+          </p>
+        </div>
+      </div>
 
       <div>
         <p className="  mt-5 text-xl md:mt-6 text-center md:text-3xl font-extrabold text-black font-serif">
-          Welcome to <span className="text-orange-500 ">SEAINDIA</span> Shipping, Clearing and Forwarding Agents
+          Welcome to <span className="text-orange-500 ">SEAINDIA</span>{" "}
+          Shipping, Clearing and Forwarding Agents
         </p>
         <div className="emptyBox md:mt-10"></div>
       </div>
-      
 
       <div className="mt-5 md:flex">
         <div className="md:mt-10 md:flex-wrap ">
@@ -125,31 +125,25 @@ const Home = () => {
         <img
           src={ship}
           alt="background"
-          className=" mt-10 w-full md:h-[400px] object-cover "
+          className="mt-10 w-full md:h-[400px] object-cover "
         />
-        <div className="absolute top-1/2 left-1/3 transform -translate-y-1/2 -translate-x-1/2 text-center">
-          
-          <p className="text-xl md:text-3xl lg:text-4xl font-bold text--300">
+        <div className=" absolute top-1/2 left-1/3 transform -translate-y-1/2 -translate-x-1/2 ">
+          <p className="  ml-10 md:ml-10 text-lg md:text-3xl lg:text-4xl font-bold">
             THE BEST SEA FREIGHT SYSTEMS
           </p>
-          <p className="text-lg md:text-xl lg:text-2xl font-bold text-white mt-2">
+          <p className="  ml-10 md:ml-10 text-lg md:text-xl lg:text-2xl font-bold text-white mt-2">
             For Book Your Shipping From Any Country
           </p>
-              
-          <div className=" pt-5 my-2 w-1/2 lg:w-1/4">
-            </div>
-          <Link to="/contact">
-            
-    
-          </Link>
+
+          <div className=" pt-1 my-2 w-1/2 lg:w-1/4"></div>
+          <Link to="/contact"></Link>
           <button
-                type="submit"
-                className="uppercase text-sm font-bold tracking-wide bg-orange-500 text-gray-100  rounded-lg w-36 h-12 focus:outline-none focus:shadow-outline"
-              >
-                Send Message
-              </button>
+            type="submit"
+            className="  ml-10 uppercase text-sm font-bold tracking-wide bg-orange-500 text-gray-100  rounded-lg w-36 h-12 focus:outline-none focus:shadow-outline"
+          >
+            Send Message
+          </button>
         </div>
-        
       </div>
 
       <div className=" flex flex-wrap mt-5 mx-10 md:ml-28 lg:ml-32 grid md:grid-cols-3 md:gap-16 md:mt-16">
@@ -161,9 +155,7 @@ const Home = () => {
           />
         </div>
         <div>
-          <p className=" mt-4  text-xl font-bold">
-            Why Choose Us ?
-          </p>
+          <p className=" mt-4  text-xl font-bold">Why Choose Us ?</p>
           <p className=" mt-4  md:mt-3 text-justify">
             Our extensive global network ensures seamless transport, while our
             tailored solutions cater to your unique requirements. Count on us
@@ -176,12 +168,8 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <img
-            src={figma}
-            alt="services"
-            className=" mt-4 md:h-[290px]"
-          />
-        </div>  
+          <img src={figma} alt="services" className=" mt-4 md:h-[290px]" />
+        </div>
       </div>
       <section className="bg-gray-50">
         <div className=" mx-auto max-w-screen-xl px-4 py-14 sm:px-6 lg:px-8 py-5">
@@ -402,13 +390,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-
-      <Footer/>
-
-         </>
-
-
+      <Content />
+      <Footer />
+    </>
   );
 };
 
