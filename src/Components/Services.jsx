@@ -1,9 +1,17 @@
 import React from "react";
 import img1 from "../assets/ship2.jpg";
 import "./css/service.css";
-import img2 from "../assets/Logistics1.png";
+import img2 from "../assets/new.png";
 import mano from "../assets/mano.png";
 import yugendhar from "../assets/yugendhar.png";
+import ocean from "../assets/shipping2.png";
+import frieght from "../assets/fieght3.png";
+import railway from "../assets/railway2.png";
+import road from "../assets/road.png";
+import special from "../assets/special.png";
+import intermodel from "../assets/intermodel.png";
+import Footer from "../Components/Footer";
+
 
 const Services = () => {
   return (
@@ -11,10 +19,10 @@ const Services = () => {
       <div className=" relative object-cover">
         <img className="img1 h-[450px] md:h-[650px] " src={img1} alt="" />
       </div>
-      <div className=" absolute overlay-p">
+      <div className=" mt-4 absolute overlay-p">
         <p>
           <span className="text-orange-500 animation- ">Our</span>{" "}
-          <span className="text-black  ">Services</span>
+          <span className=" text-black  md:text-white   ">Services</span>
         </p>
       </div>
 
@@ -23,29 +31,18 @@ const Services = () => {
         Looking for a specific service? Narrow your search by selecting a
         service.
       </p>
-      <div className=" bg-orange-500 px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-5">
+      <div className="bg-orange-500">
+      <div className="  px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-5">
         <h2 className=" relative bottom-10 p-10 flex  justify-center text-3xl font-bold sm:text-4xl">
           Shipping Services
         </h2>
-        <div className="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-20 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+            <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={ocean} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Ocean freight</h6>
-            <p className="mb-3 text-bold text-gray-900">
+            <p className="mb-3 text-bold text-white">
               Full Container Load (FCL) Shipping: Exclusive use of a container
               for a single shipment. Less than Container Load (LCL) Shipping:
               Consolidation of multiple shipments in a single container.
@@ -55,29 +52,17 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-800 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={frieght} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Air freight</h6>
-            <p className="mb-3 text-bold text-gray-900">
+            <p className="mb-3 text-bold text-white">
               Expedited Shipping: Fast and time-sensitive delivery of goods via
               air transport. Direct and Consolidated Shipments: Options for
               exclusive or shared use of cargo space on aircraft.
@@ -87,61 +72,36 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={railway} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Rail freight</h6>
-            <p className="mb-3 text-bold text-gray-900">
+            <p className="mb-3 text-bold text-white">
               Domestic and International Rail Services: Transport of cargo via
               rail networks within a country or across borders. Intermodal
               Transportation: Integration of rail transport with other modes,
-              such as trucking and ocean shipping, for efficient end-to-end
-              delivery, within a country or across borders..
+              such as trucking and ocean shipping.
             </p>
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={road} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">Road freight</h6>
-            <p className="mb-3 text-bold text-gray-900">
+            <p className="mb-3 text-bold text-white">
               Domestic and Cross-Border Trucking: Transport of goods by road
               within a country or between countries. Full Truckload (FTL) and
               Less than Truckload (LTL) Services: Options for exclusive or
@@ -150,31 +110,19 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={intermodel} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">
               Intermodal transportation
             </h6>
-            <p className="mb-3 text-bold text-gray-900">
+            <p className="mb-3 text-bold text-white">
               Multimodal Solutions: Integration of multiple modes of
               transportation (e.g., trucking, rail, ocean, air) to optimize
               supply chain efficiency. Door-to-Door Delivery: Seamless movement
@@ -184,31 +132,19 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
           </div>
           <div>
-            <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-8 h-8 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+          <div  className="flex items-center justify-center w-20 h-10 mb-4 rounded-full bg-indigo-50">
+              <img className="rounded-full" src={special} alt="ocean" />
             </div>
             <h6 className="mb-2 font-bold text-2xl leading-5">
               Specialized Shipping Services:
             </h6>
-            <p className="mb-3 text-bold text-gray-900">
+            <p className="mb-3 text-bold text-white">
               Hazardous Materials Shipping: Safe and compliant transportation of
               dangerous goods, following regulatory requirements. Oversized and
               Heavy Haul Shipping: Transport of bulky or heavy cargo, including
@@ -217,26 +153,33 @@ const Services = () => {
             <a
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-deep-purple-accent-400 hover:bg-orange-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:ring-opacity-50 transition-colors duration-200"
             >
               Book Now
             </a>
           </div>
         </div>
       </div>
-
-      <div>
-        <img src={img2} alt="" />
       </div>
 
-      <section className="bg-gray-400">
-        <div className=" mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 py-5">
+      <div className="">
+        <h1 className="font-bold  text-4xl md:flex  justify-center pt-10 sm: flex justify-center">LOGISTICS</h1>
+        <div className="emptyBox1"></div>
+        <p className=" text-4xl  md:flex  justify-center py-10 pt-5 sm: text-l flex justify-center items-center">End-to-End Cargo Solutions That You Can Rely On</p>
+      </div>
+      
+      <div w-full>
+        <img className="w-full" src={img2} alt="logistics" />
+      </div>
+
+      <section className="bg-gray-50">
+        <div className=" mx-auto max-w-screen-xl px-4 py-14 sm:px-6 lg:px-8 py-5">
           <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Read trusted reviews from our customers
           </h2>
 
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="rounded-lg transform hover:scale-110 transition-transform duration-500 ease-in-out hover:border border-orange-500 p-6 shadow-xl sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
@@ -306,7 +249,7 @@ const Services = () => {
               </p>
             </blockquote>
 
-            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="rounded-lg transform hover:scale-110 transition-transform duration-500 ease-in-out hover:border border-orange-500 p-6 shadow-xl sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
@@ -376,7 +319,7 @@ const Services = () => {
               </p>
             </blockquote>
 
-            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="rounded-lg transform hover:scale-110 transition-transform duration-500 ease-in-out hover:border border-orange-500 p-6 shadow-xl sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
@@ -448,7 +391,9 @@ const Services = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
+    
   );
 };
 

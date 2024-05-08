@@ -6,7 +6,7 @@ import About from "./Components/About";
 import Team from "./Components/Team";
 import Contact from "./Components/contact";
 import { Toaster } from "react-hot-toast";
-import Footer from "./Components/Footer";
+
 
 
 function App() {
@@ -17,12 +17,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/aboutus" element={<About/>}/>
-        <Route path="/services" element={<Services/>}/>
-        <Route path="/team" element={<Team/>}/>
-        <Route path="/contact" element={<Contact/>}/> 
+      <Route path="/aboutus" element={<About/>}/>
+      <Route path="/services" element={<Services/>}/>
+      <Route path="/team" element={<Team/>}/>
+      <Route path="/contact" element={<Contact/>}/> 
       </Routes>
-      <Footer/>
+      
     </>
   );
 }
