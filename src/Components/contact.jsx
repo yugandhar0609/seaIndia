@@ -194,7 +194,7 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
+
         <div className="inline-block lg:-mt-80  ">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.0638869410163!2d80.2873247!3d13.0951376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f456fd1bdb5%3A0x8aa722748a1a5206!2sSEAINDIA%20Freight%20System%20PRVT%20LTD!5e0!3m2!1sen!2sin!4v1715062315257!5m2!1sen!2sin"
@@ -207,7 +207,7 @@ const ContactForm = () => {
             
           ></iframe>
         </div>
-=======
+
        <div className="inline-block lg:-mt-80  ">
   <iframe
     className=""
@@ -220,8 +220,6 @@ const ContactForm = () => {
     referrerPolicy="no-referrer-when-downgrade"
   ></iframe>
 </div>
-
->>>>>>> SeaIndia/main
       </div>
       <Footer/>
     </>
