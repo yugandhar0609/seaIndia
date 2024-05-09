@@ -138,11 +138,19 @@ const Home = () => {
           <div className=" pt-1 my-2 w-1/2 lg:w-1/4"></div>
           <Link to="/contact"></Link>
           <button
+<<<<<<< HEAD
             type="submit"
             className="  ml-10 uppercase text-sm font-bold tracking-wide bg-orange-500 text-gray-100  rounded-lg w-36 h-12 focus:outline-none focus:shadow-outline"
           >
             Send Message
           </button>
+=======
+                type="submit"
+                className="uppercase text-sm font-bold tracking-wide bg-orange-500 text-gray-100  rounded-lg w-36 h-12 focus:outline-none focus:shadow-outline"
+              >
+                Explore
+              </button>
+>>>>>>> SeaIndia/main
         </div>
       </div>
 

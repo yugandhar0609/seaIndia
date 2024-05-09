@@ -40,7 +40,7 @@ const About = () => {
       </div>
     </div>
     <div>
-    <div class="bg-white pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-0 lg:py-0">
+    <div class="bg-white pt-1 pr-4 pb-16 pl-4 md:px-24 lg:px-0 lg:py-0">
       <div class="bg-white mt-0 mr-auto mb-0 ml-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full">
         <div class="mr-auto mb-10 ml-auto md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 max-w-xl">
           <div>
