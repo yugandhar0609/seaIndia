@@ -32,7 +32,7 @@ const ContactForm = () => {
         toast.error(response.data.message);
       }
     } catch (error) {
-      toast.error("Something went wrong");
+      toast.error("Something went wrong");
     }
   };
 
@@ -203,6 +203,7 @@ const ContactForm = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            
           ></iframe>
         </div>
       </div>
