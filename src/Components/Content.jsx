@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const Content = () => {
     const handleMenuClick = () => {
@@ -12,12 +14,12 @@ const Content = () => {
       };
   return (
     <div>
-      <div className="bg-gray-200 ">
-        <footer class="bg-gray-900 md:mx-20 rounded-t-3xl">
+      <div className=" mt-6  md:mt-6  ">
+        <footer class="bg-gray-900 md:mx-20 rounded-3xl">
           <div class="container px-6 py-8 mx-auto">
             <div class="flex flex-col items-center text-center">
               <p class="mt-5 text-l md:mt-6 text-center md:text-3xl font-extrabold text-white font-serif">
-                Welcome to <span class="text-orange-500">SEAINDIA</span>{" "}
+                Explore <span class="text-orange-500">SEAINDIA</span>{" "}
                 Shipping, Clearing and Forwarding Agents
               </p>
 

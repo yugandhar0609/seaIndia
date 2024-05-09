@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </footer>
       </div> */}
-      <footer className="bg-gray-800 text-white py-8 z-20">
+      <footer className=" mt-6  md:mt-6 bg-gray-800 text-white py-8 z-20">
         <div className="container mx-auto flex flex-col md:flex-row justify-between px-4">
           <div className="mb-4 md:mb-0">
             <h3 className="text-xl font-bold mb-2">

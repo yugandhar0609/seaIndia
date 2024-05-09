@@ -8,6 +8,7 @@ import logo3 from '../assets/workers.png'
 import ceo from '../assets/ceo.jpeg'
 import tech from '../assets/technical.jpg'
 import Footer from "../Components/Footer";
+import Content from "../Components/Content"
 
 
 
@@ -191,6 +192,7 @@ const Team = () => {
         </div>
       </div>
     </div>
+    <Content/>
     <Footer/>
   </>
   )
