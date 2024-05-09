@@ -25,9 +25,9 @@ const Content = () => {
 
               <div class="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center">
                 <Link to="/contact" onClick={handleMenuClick}>
-                  <button class="w-full px-5 py-2 text-sm md:text-lg tracking-wide text-white capitalize transition-colors duration-300 transform bg-orange-600 rounded-full sm:mx-2 sm:order-2 sm:w-auto hover:bg-white hover:text-black ">
+                  {/* <button class="w-full px-5 py-2 text-sm md:text-lg tracking-wide text-white capitalize transition-colors duration-300 transform bg-orange-600 rounded-full sm:mx-2 sm:order-2 sm:w-auto hover:bg-white hover:text-black ">
                     Contact Us
-                  </button>
+                  </button> */}
                 </Link>
               </div>
             </div>
